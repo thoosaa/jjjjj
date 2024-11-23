@@ -1,0 +1,117 @@
+html[b-e3f6mjjtbv],
+body[b-e3f6mjjtbv],
+div[b-e3f6mjjtbv],
+span[b-e3f6mjjtbv],
+h1[b-e3f6mjjtbv],
+h2[b-e3f6mjjtbv],
+p[b-e3f6mjjtbv],
+a[b-e3f6mjjtbv],
+img[b-e3f6mjjtbv],
+strong[b-e3f6mjjtbv],
+ul[b-e3f6mjjtbv],
+li[b-e3f6mjjtbv],
+button[b-e3f6mjjtbv],
+footer[b-e3f6mjjtbv],
+header[b-e3f6mjjtbv] {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  position: relative;
+}
+
+*[b-e3f6mjjtbv],
+[b-e3f6mjjtbv]:after,
+[b-e3f6mjjtbv]:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a[b-e3f6mjjtbv],
+button[b-e3f6mjjtbv],
+div[b-e3f6mjjtbv] {
+  outline: none;
+}
+
+ul[b-e3f6mjjtbv] {
+  list-style: none;
+}
+
+img[b-e3f6mjjtbv] {
+  border: none;
+}
+
+html[b-e3f6mjjtbv],
+body[b-e3f6mjjtbv],
+.wrap[b-e3f6mjjtbv] {
+  height: 100%;
+}
+
+body[b-e3f6mjjtbv] {
+  font: normal 18px SegoePrint;
+  line-height: 24px;
+  color: #4530af;
+}
+
+p[b-e3f6mjjtbv] {
+  margin-bottom: 10px;
+}
+
+.battlefield[b-e3f6mjjtbv] {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  margin: 0 auto;
+  background: url("../img/grid.png") repeat;
+}
+
+.welcome-text[b-e3f6mjjtbv] {
+  font-family: serif;
+  font-size: 50px;
+  text-align: center;
+  height: 200px;
+  padding-top: 100px;
+}
+
+.start-page-buttons[b-e3f6mjjtbv] {
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.start_button[b-e3f6mjjtbv] {
+  height: 90px;
+  width: 100%;
+  background-color: lightblue;
+  color: black;
+  transition: width 2s, 4s;
+  transition-property: background-color, font-size, color;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: Serif, cursive;
+  transform: translateX(-85px);
+}
+
+.start_button:hover[b-e3f6mjjtbv] {
+  background-color: royalblue;
+  font-size: 25px;
+  color: whitesmoke;
+}
+
+.users-block[b-e3f6mjjtbv] {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.users[b-e3f6mjjtbv] {
+  padding-left: 15px;
+  font-size: 30px;
+  font-weight: bold;
+}

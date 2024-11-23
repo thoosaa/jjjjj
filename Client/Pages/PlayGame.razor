@@ -1,0 +1,72 @@
+﻿@page "/play?GameId={GameId}&Username={Username}"
+
+@using Share.Models
+@inject IGameService GameService
+@inject NavigationManager NavigationManager
+
+<h3>Игра в Свинью</h3>
+
+@if (game != null)
+{
+    <h4>Текущий игрок: @game.GetCurrentPlayer().Name</h4>
+    <p>Текущий счет: @game.GetCurrentPlayer().Score.TotalScore</p>
+    <p>Очки за ход: @game.GetCurrentPlayer().Score.TurnScore</p>
+    <p>@message</p>
+
+    <button @onclick="RollDice" class="btn btn-primary">Бросить кости</button>
+    <button @onclick="BankPoints" class="btn btn-success">Сохранить очки</button>
+
+    <h5>Результаты игры:</h5>
+    <ul>
+        @foreach (var player in game.GetPlayers())
+        {
+            <li>@player.Name: @player.Score.TotalScore</li>
+        }
+    </ul>
+}
+else
+{
+    <p>Загрузка игры...</p>
+}
+
+@code {
+    [Parameter] public string GameId { get; set; } = "";
+    [Parameter] public string Username { get; set; } = "";
+
+    private PigGame game;
+    private string message = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Fetch game state from the server
+        game = await GameService.GetGameState(GameId);
+    }
+
+    private async Task RollDice()
+    {
+        var result = await GameService.RollDice(GameId);
+        message = result;
+
+        if (game.IsGameOver)
+        {
+            await GameService.EndGame(GameId, game.GetCurrentPlayer().Name);
+            NavigationManager.NavigateTo($"/results?GameId={GameId}&Username={game.GetCurrentPlayer().Name}");
+        }
+
+        StateHasChanged(); // Refresh the UI
+    }
+
+    private async Task BankPoints()
+    {
+        var result = await GameService.BankPoints(GameId);
+        message = result;
+
+        if (game.IsGameOver)
+        {
+            await GameService.EndGame(GameId, game.GetCurrentPlayer().Name);
+            NavigationManager.NavigateTo($"/results?GameId={GameId}&Username={game.GetCurrentPlayer().Name}");
+        }
+
+        StateHasChanged(); // Refresh the UI
+    }
+}

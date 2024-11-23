@@ -1,0 +1,130 @@
+﻿div,
+span,
+h1,
+h2,
+p,
+a,
+img,
+strong,
+ul,
+li,
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  position: relative;
+}
+
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a,
+button,
+div {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  border: none;
+}
+
+.wrap {
+  height: 100%;
+  width: 1024px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.ship {
+  background: url("../img/sprite.png") no-repeat;
+}
+
+/* typography */
+body {
+  font: normal 18px SegoePrint;
+  line-height: 24px;
+  color: #4530af;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.battlefield {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  margin: 0 auto;
+  padding: 40px;
+  background: url("../img/grid.png") repeat;
+  transform: translateX(-2);
+}
+
+.outer {
+  margin-bottom: 21px;
+  padding-left: 38px;
+  transform: translateX(-40px);
+}
+
+.field {
+  width: 366px;
+  height: 363px;
+  flex-shrink: 0;
+  position: relative;
+  background: url("../img/bg_play_field.png") no-repeat;
+}
+
+.other-field {
+  margin-left: 31px;
+}
+
+.ships {
+  width: 330px;
+  height: 330px;
+  position: relative;
+  left: 29px;
+  top: 27px;
+}
+
+.ship {
+  height: 35px;
+  position: absolute;
+}
+
+.vertical {
+  transform: rotate(90deg);
+  transform-origin: 17.5px 17.5px;
+}
+
+.fourdeck {
+  width: 134px;
+  background-position: 0 0;
+}
+
+.tripledeck {
+  width: 101px;
+  background-position: -150px 0;
+}
+
+.doubledeck {
+  width: 68px;
+  background-position: -270px 0;
+}
+
+.singledeck {
+  width: 35px;
+  background-position: -360px 0;
+}

@@ -1,0 +1,117 @@
+﻿html,
+body,
+div,
+span,
+h1,
+h2,
+p,
+a,
+img,
+strong,
+ul,
+li,
+button,
+footer,
+header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  position: relative;
+}
+
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a,
+button,
+div {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  border: none;
+}
+
+html,
+body,
+.wrap {
+  height: 100%;
+}
+
+body {
+  font: normal 18px SegoePrint;
+  line-height: 24px;
+  color: #4530af;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.battlefield {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  margin: 0 auto;
+  background: url("../img/grid.png") repeat;
+}
+
+.welcome-text {
+  font-family: serif;
+  font-size: 50px;
+  text-align: center;
+  height: 200px;
+  padding-top: 100px;
+}
+
+.start-page-buttons {
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.start_button {
+  height: 90px;
+  width: 100%;
+  background-color: lightblue;
+  color: black;
+  transition: width 2s, 4s;
+  transition-property: background-color, font-size, color;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: Serif, cursive;
+  transform: translateX(-85px);
+}
+
+.start_button:hover {
+  background-color: royalblue;
+  font-size: 25px;
+  color: whitesmoke;
+}
+
+.users-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.users {
+  padding-left: 15px;
+  font-size: 30px;
+  font-weight: bold;
+}

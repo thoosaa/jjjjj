@@ -1,0 +1,253 @@
+div[b-107ts1js76],
+span[b-107ts1js76],
+h1[b-107ts1js76],
+h2[b-107ts1js76],
+p[b-107ts1js76],
+a[b-107ts1js76],
+img[b-107ts1js76],
+strong[b-107ts1js76],
+ul[b-107ts1js76],
+li[b-107ts1js76],
+button[b-107ts1js76] {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  position: relative;
+}
+
+*[b-107ts1js76],
+[b-107ts1js76]:after,
+[b-107ts1js76]:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a[b-107ts1js76],
+button[b-107ts1js76],
+div[b-107ts1js76] {
+  outline: none;
+}
+
+ul[b-107ts1js76] {
+  list-style: none;
+}
+
+img[b-107ts1js76] {
+  border: none;
+}
+
+.wrap[b-107ts1js76] {
+  height: 100%;
+  width: 1024px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.ship[b-107ts1js76],
+.icon-field[b-107ts1js76],
+.btn-play[b-107ts1js76] {
+  background: url("../img/sprite.png") no-repeat;
+}
+
+body[b-107ts1js76] {
+  font: normal 18px SegoePrint;
+  line-height: 24px;
+  color: #4530af;
+}
+
+p[b-107ts1js76] {
+  margin-bottom: 10px;
+}
+
+.btn-play[b-107ts1js76] {
+  width: 144px;
+  height: 45px;
+  font-family: SegoePrint;
+  font-size: 24px;
+  line-height: 40px;
+  color: #4530af;
+  text-align: center;
+  background-position: 0 -150px;
+  cursor: pointer;
+}
+
+.btn-newgame[b-107ts1js76] {
+  font-size: 19px;
+  margin-top: 10px;
+}
+
+.flex[b-107ts1js76] {
+  display: flex;
+}
+
+.battlefield[b-107ts1js76] {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  margin: 0 auto;
+  background: url("../img/grid.png") repeat;
+}
+
+.text-top[b-107ts1js76] {
+  height: 66px;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  margin-bottom: 7px;
+}
+
+.service-row[b-107ts1js76] {
+  text-align: center;
+}
+
+.service-text[b-107ts1js76] {
+  color: #c00;
+  padding-top: 10px;
+}
+
+.outer[b-107ts1js76] {
+  margin-bottom: 21px;
+  padding-left: 38px;
+}
+
+.field[b-107ts1js76] {
+  width: 366px;
+  height: 363px;
+  flex-shrink: 0;
+  position: relative;
+  background: url("../img/bg_play_field.png") no-repeat;
+}
+
+.field-computer[b-107ts1js76] {
+  margin-left: 31px;
+}
+
+.ships[b-107ts1js76] {
+  width: 330px;
+  height: 330px;
+  position: relative;
+  left: 29px;
+  top: 27px;
+}
+
+.ship[b-107ts1js76] {
+  height: 35px;
+  position: absolute;
+}
+
+.vertical[b-107ts1js76] {
+  transform: rotate(90deg);
+  transform-origin: 17.5px 17.5px;
+}
+
+.fourdeck[b-107ts1js76] {
+  width: 134px;
+  background-position: 0 0;
+}
+
+.fourdeck.success[b-107ts1js76] {
+  background-position: 0 -50px;
+}
+
+.fourdeck.unsuccess[b-107ts1js76] {
+  background-position: 0 -100px;
+}
+
+.tripledeck[b-107ts1js76] {
+  width: 101px;
+  background-position: -150px 0;
+}
+
+.tripledeck.success[b-107ts1js76] {
+  background-position: -150px -50px;
+}
+
+.tripledeck.unsuccess[b-107ts1js76] {
+  background-position: -150px -100px;
+}
+
+.doubledeck[b-107ts1js76] {
+  width: 68px;
+  background-position: -270px 0;
+}
+
+.doubledeck.success[b-107ts1js76] {
+  background-position: -270px -50px;
+}
+
+.doubledeck.unsuccess[b-107ts1js76] {
+  background-position: -270px -100px;
+}
+
+.singledeck[b-107ts1js76] {
+  width: 35px;
+  background-position: -360px 0;
+}
+
+.singledeck.success[b-107ts1js76] {
+  background-position: -360px -50px;
+}
+
+.singledeck.unsuccess[b-107ts1js76] {
+  background-position: -360px -100px;
+}
+
+.instruction[b-107ts1js76] {
+  margin-left: 26px;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.type-placement-box[b-107ts1js76] {
+  line-height: 34px;
+  padding-bottom: 18px;
+}
+
+.type-placement-box .link[b-107ts1js76] {
+  font-size: 20px;
+  border-bottom: dashed 2px #4530af;
+  cursor: pointer;
+}
+
+.initial-ships li[b-107ts1js76] {
+  height: 35px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 31px;
+}
+
+.initial-ships .ship[b-107ts1js76] {
+  left: 0;
+  top: 0;
+  float: left;
+  cursor: move;
+}
+
+.initial-ships .tripledeck1[b-107ts1js76] {
+  left: 164px;
+}
+
+.initial-ships .tripledeck2[b-107ts1js76] {
+  left: 297px;
+}
+
+.initial-ships .doubledeck2[b-107ts1js76] {
+  left: 99px;
+}
+
+.initial-ships .doubledeck3[b-107ts1js76] {
+  left: 197px;
+}
+
+.initial-ships .singledeck2[b-107ts1js76] {
+  left: 65px;
+}
+
+.initial-ships .singledeck3[b-107ts1js76] {
+  left: 131px;
+}
+
+.initial-ships .singledeck4[b-107ts1js76] {
+  left: 197px;
+}

@@ -1,0 +1,51 @@
+﻿@page "/results"
+
+@inject NavigationManager NavigationManager
+@inject IGameService GameService
+
+<PageTitle>Results</PageTitle>
+
+<link href="css/style.css" rel="stylesheet">
+
+<div class="battlefield">
+	<div class="welcome-text">
+		<p>Финал</p>
+	</div>
+	<div class="start-page-buttons">
+		<div class="users">
+			<p>Победитель: @Username</p>
+		</div>
+		<div style="display: flex; justify-content:space-around;">
+			<input type="button" value="Назад в меню" class="start_button" @onclick="toMenu">
+		</div>
+	</div>
+</div>
+
+@code
+{
+	[SupplyParameterFromQuery]
+	[Parameter]
+	public string? GameId { get; set; } = "";
+
+	[SupplyParameterFromQuery]
+	[Parameter]
+	public string? Username { get; set; } = "";
+
+	protected async override Task OnInitializedAsync()
+	{
+		var uri = new Uri(NavigationManager.Uri);
+		var query = QueryHelpers.ParseQuery(uri.Query);
+
+		GameService.CreateConnection("End", () =>
+		{
+			NavigationManager.NavigateTo($"/");
+		});
+
+		await GameService.ConnectToHub();
+	}
+
+	private async Task toMenu()
+	{
+		await GameService.DeleteGame(GameId!);
+	}
+}

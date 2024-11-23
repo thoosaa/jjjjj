@@ -1,0 +1,31 @@
+﻿@page "/"
+
+@inject NavigationManager NavigationManager
+
+<PageTitle>Home</PageTitle>
+
+<link href="css/style.css" rel="stylesheet">
+
+<div class="battlefield">
+    <div class="welcome-text">
+        <p>Морской Бой</p>
+    </div>
+
+    <div class="start-page-buttons">
+        <input type="button" class="start_button" @onclick="CreateGame" value="Создать игру">
+        <input type="button" class="start_button" @onclick="JoinGame" value="Присоединиться к игре">
+    </div>
+</div>
+
+@code
+{
+    private void CreateGame()
+    {
+        NavigationManager.NavigateTo("/create");
+    }
+
+    private void JoinGame()
+    {
+        NavigationManager.NavigateTo("/join");
+    }
+}
