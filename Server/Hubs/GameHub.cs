@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.SignalR;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Share.Models; // Ensure this namespace is included to access PigGame class
+using Share.Models; 
 
 namespace Server.Hubs
 {
@@ -47,9 +47,9 @@ namespace Server.Hubs
 
             await Clients.Group(game).SendAsync("Receive", $"{username} has joined the game.");
 
-            if (GameGroups[game].GetPlayers().Count == 2)
+            if (GameGroups[game].GetPlayers().Count >= 2)
             {
-                await Clients.Group(game).SendAsync("Notify", "The game is ready to start!");
+                await Clients.Group(game).SendAsync("Start", "The game is ready to start!");
             }
         }
 

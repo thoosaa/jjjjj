@@ -55,3 +55,4 @@ C:\Users\Tanechka\Desktop\Lab13\Server\obj\Debug\net9.0\refint\Server.dll
 C:\Users\Tanechka\Desktop\Lab13\Server\obj\Debug\net9.0\Server.pdb
 C:\Users\Tanechka\Desktop\Lab13\Server\obj\Debug\net9.0\Server.genruntimeconfig.cache
 C:\Users\Tanechka\Desktop\Lab13\Server\obj\Debug\net9.0\ref\Server.dll
+C:\Users\Tanechka\Desktop\Lab13\Server\obj\Debug\net9.0\Server.sourcelink.json

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "64Pue4xuMXtdctbBl2P5MvsPb/pSULyTKFWuvnlc3BA=",
+  "Hash": "XK+7rSRyDdoiNUcGdCZy3hV6GUuQNVa6dX+msMrKzFE=",
   "Source": "Server",
   "BasePath": "_content/Server",
   "Mode": "Default",
@@ -43,8 +43,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "59c2l3tlhr",
-      "Integrity": "idsoxXgjrOkldhvSNVm8NtQtnVfdpSXx3+TGgcUfJRE=",
+      "Fingerprint": "b6hrl0yi4r",
+      "Integrity": "s2ROcUAc7nUbPCKQR5qKmkAHsruBYb+FPz+su2qthlc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -85,8 +85,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "32mphhj4z7",
-      "Integrity": "Ff++hq5pctH4NK+yAQsmxlaJdHzzp51yekr6aFPh6xI=",
+      "Fingerprint": "pk7ygfawgd",
+      "Integrity": "J1lLgBWMSOit47KIAnjG3pcyZJUowqk7RztPR/OhJeE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Client.pdb"
@@ -106,8 +106,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "42qyayxcgv",
-      "Integrity": "lCVFfT+Rg6zNUCvte+sRJpzgsDXMhRlSEcZoYPwbK0w=",
+      "Fingerprint": "3gfp63mw1q",
+      "Integrity": "cyxY8hJUlOxsft+tOxwBITUa5gFRcNvJ0tE9UpEmiOw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Client.wasm"
@@ -1156,8 +1156,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "znulacrfp0",
-      "Integrity": "gQcLYLYorrLB/PFyu6ZGl9LByP86DDASOaowneo7c14=",
+      "Fingerprint": "hgw3hdlvas",
+      "Integrity": "EdwAyU1Cxzdtt/LSqX1TmLH04GAmyfgLesFRKf9uXQg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Share.pdb"
@@ -1177,8 +1177,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "idn7dfeliy",
-      "Integrity": "6qSFmBsBbe26RpboZrwgAsZDECLznJaUOm9zMf6BKpk=",
+      "Fingerprint": "j93vbkm2b2",
+      "Integrity": "R70flT+hLhBnDU2L4LHklEgMOztzP3NragVNJavwPkU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Share.wasm"
@@ -4649,7 +4649,7 @@
       "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\0k9dq1b0uj-m2f09g14sa.gz"
     },
     {
-      "Identity": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\0kih5qk3hm-59c2l3tlhr.gz",
+      "Identity": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\0kih5qk3hm-b6hrl0yi4r.gz",
       "SourceId": "Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\",
@@ -4663,11 +4663,11 @@
       "RelatedAsset": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "smd7o9oehv",
-      "Integrity": "POMVObsZ9Z/teR6Xu3prF0PwZw9wYOehKD+DJznEGVE=",
+      "Fingerprint": "ynlslbnnlp",
+      "Integrity": "rs2uqY1HF7lKaonbouOS3CRidu/dzuK2s2S5iUjexRw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\0kih5qk3hm-59c2l3tlhr.gz"
+      "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\0kih5qk3hm-b6hrl0yi4r.gz"
     },
     {
       "Identity": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\0leozkdovw-9wi3ak1857.gz",
@@ -6140,12 +6140,12 @@
       "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\cosh57d4oe-ab5tpb98fw.gz"
     },
     {
-      "Identity": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\cpjbyt2peh-42qyayxcgv.gz",
+      "Identity": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\cpjbyt2peh-3gfp63mw1q.gz",
       "SourceId": "Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Client#[.{fingerprint=42qyayxcgv}]!.wasm.gz",
+      "RelativePath": "_framework/Client#[.{fingerprint=3gfp63mw1q}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6154,11 +6154,11 @@
       "RelatedAsset": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "2fatnqwx7u",
-      "Integrity": "/jjuNJtXNsQCwIMyIueWc3ahNtDf80sOG7gDPZKScq4=",
+      "Fingerprint": "x2g2ae9a76",
+      "Integrity": "F/BTUcsO+Xu8b1VMi1nDovoI7/DHy8EiyZH74WM1wHE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\cpjbyt2peh-42qyayxcgv.gz"
+      "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\cpjbyt2peh-3gfp63mw1q.gz"
     },
     {
       "Identity": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\czti720ue5-9pw8i2xf5o.gz",
@@ -7043,12 +7043,12 @@
       "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\j7a1baa49i-04kjs9vh65.gz"
     },
     {
-      "Identity": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\janmimcupf-idn7dfeliy.gz",
+      "Identity": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\janmimcupf-j93vbkm2b2.gz",
       "SourceId": "Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Share#[.{fingerprint=idn7dfeliy}]!.wasm.gz",
+      "RelativePath": "_framework/Share#[.{fingerprint=j93vbkm2b2}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7057,11 +7057,11 @@
       "RelatedAsset": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Share.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "qed8uldw3k",
-      "Integrity": "Hui6/+4eqK+8liLANFqwJtJvMbRbjw5tKt1zK6goIEM=",
+      "Fingerprint": "lkshgr84r4",
+      "Integrity": "G3kNWTpuNQGu5Ezf5zLC0xVVehILWRqzpWPwSgKc6N8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\janmimcupf-idn7dfeliy.gz"
+      "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\janmimcupf-j93vbkm2b2.gz"
     },
     {
       "Identity": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\jhtb2gsst6-tyae2554m5.gz",
@@ -8450,12 +8450,12 @@
       "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\t9xwyjfbyp-cmapd0fi15.gz"
     },
     {
-      "Identity": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\tcxixgxc14-znulacrfp0.gz",
+      "Identity": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\tcxixgxc14-hgw3hdlvas.gz",
       "SourceId": "Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Share#[.{fingerprint=znulacrfp0}]!.pdb.gz",
+      "RelativePath": "_framework/Share#[.{fingerprint=hgw3hdlvas}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8464,11 +8464,11 @@
       "RelatedAsset": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Share.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "xndfon9o0a",
-      "Integrity": "7VYcLtrIgbMOGvkPWri8zwBbxEc9zqlBmnq6HfS3zmU=",
+      "Fingerprint": "l8lkuz85xp",
+      "Integrity": "e023XKgRCgS/+9KZOETY6ViLRgKGyr5wwfEtDMol3h0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\tcxixgxc14-znulacrfp0.gz"
+      "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\tcxixgxc14-hgw3hdlvas.gz"
     },
     {
       "Identity": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\tf71l5y10r-ctn0pypdat.gz",
@@ -8765,12 +8765,12 @@
       "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\ugxxozdzh0-af0ord36ui.gz"
     },
     {
-      "Identity": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\ui8zywzy6c-g097pql18h.gz",
+      "Identity": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\ui8zywzy6c-l3eaetbl53.gz",
       "SourceId": "Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "Client#[.{fingerprint=g097pql18h}]?.styles.css.gz",
+      "RelativePath": "Client#[.{fingerprint=l3eaetbl53}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -8779,11 +8779,11 @@
       "RelatedAsset": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Client.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "g459p0ykbj",
-      "Integrity": "MFsLxB5r0LgIpyKvuxQr+xfUy75CLNDKz+vGf9cxLzM=",
+      "Fingerprint": "4nqaprvcmy",
+      "Integrity": "oGXMjJmxgDOz5WZnzO3EagpBzFOBgXc1b6kAdtctdX0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\ui8zywzy6c-g097pql18h.gz"
+      "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\ui8zywzy6c-l3eaetbl53.gz"
     },
     {
       "Identity": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\ujfg3mlk0y-3sx0y6ui4u.gz",
@@ -9038,12 +9038,12 @@
       "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\x7uazyfd7o-lfu7j35m59.gz"
     },
     {
-      "Identity": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\xbmipl6i3z-32mphhj4z7.gz",
+      "Identity": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\xbmipl6i3z-pk7ygfawgd.gz",
       "SourceId": "Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Client#[.{fingerprint=32mphhj4z7}]!.pdb.gz",
+      "RelativePath": "_framework/Client#[.{fingerprint=pk7ygfawgd}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9052,11 +9052,11 @@
       "RelatedAsset": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "1ztyhw8x8d",
-      "Integrity": "Pb2LhFmjSGU56p+hZSYwtbKrOxooz8CKqk6F+7udzyo=",
+      "Fingerprint": "pqa3sctooy",
+      "Integrity": "34p1GKRUfvDnoenI11RhAfLcDFR1TQXfcxViJBWzESM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\xbmipl6i3z-32mphhj4z7.gz"
+      "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\xbmipl6i3z-pk7ygfawgd.gz"
     },
     {
       "Identity": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\xdp559oozt-fk089ohxy8.gz",
@@ -9451,8 +9451,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "g097pql18h",
-      "Integrity": "YBohP96/zfU2+60TgQzLjAEMshhJSsSdoB9gAvdPdkM=",
+      "Fingerprint": "l3eaetbl53",
+      "Integrity": "4bek7PCIZ1A3qJErlOMLXbD6GX3IMb4kDcRk0T86Gt4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Client.styles.css"
@@ -9923,23 +9923,23 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"idsoxXgjrOkldhvSNVm8NtQtnVfdpSXx3+TGgcUfJRE=\""
+          "Value": "\"s2ROcUAc7nUbPCKQR5qKmkAHsruBYb+FPz+su2qthlc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Sat, 23 Nov 2024 20:53:19 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-idsoxXgjrOkldhvSNVm8NtQtnVfdpSXx3+TGgcUfJRE="
+          "Value": "sha256-s2ROcUAc7nUbPCKQR5qKmkAHsruBYb+FPz+su2qthlc="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\0kih5qk3hm-59c2l3tlhr.gz",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\0kih5qk3hm-b6hrl0yi4r.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -9966,11 +9966,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"POMVObsZ9Z/teR6Xu3prF0PwZw9wYOehKD+DJznEGVE=\""
+          "Value": "\"rs2uqY1HF7lKaonbouOS3CRidu/dzuK2s2S5iUjexRw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Sat, 23 Nov 2024 20:50:29 GMT"
         },
         {
           "Name": "Vary",
@@ -9982,19 +9982,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"idsoxXgjrOkldhvSNVm8NtQtnVfdpSXx3+TGgcUfJRE=\""
+          "Value": "W/\"s2ROcUAc7nUbPCKQR5qKmkAHsruBYb+FPz+su2qthlc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-idsoxXgjrOkldhvSNVm8NtQtnVfdpSXx3+TGgcUfJRE="
+          "Value": "sha256-s2ROcUAc7nUbPCKQR5qKmkAHsruBYb+FPz+su2qthlc="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\0kih5qk3hm-59c2l3tlhr.gz",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\0kih5qk3hm-b6hrl0yi4r.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10019,11 +10019,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"POMVObsZ9Z/teR6Xu3prF0PwZw9wYOehKD+DJznEGVE=\""
+          "Value": "\"rs2uqY1HF7lKaonbouOS3CRidu/dzuK2s2S5iUjexRw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Sat, 23 Nov 2024 20:50:29 GMT"
         },
         {
           "Name": "Vary",
@@ -10033,7 +10033,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-POMVObsZ9Z/teR6Xu3prF0PwZw9wYOehKD+DJznEGVE="
+          "Value": "sha256-rs2uqY1HF7lKaonbouOS3CRidu/dzuK2s2S5iUjexRw="
         }
       ]
     },
@@ -10107,7 +10107,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Tue, 29 Oct 2024 13:25:32 GMT"
         },
         {
           "Name": "Vary",
@@ -10160,7 +10160,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Tue, 29 Oct 2024 13:25:32 GMT"
         },
         {
           "Name": "Vary",
@@ -10175,168 +10175,7 @@
       ]
     },
     {
-      "Route": "_framework/Client.32mphhj4z7.pdb",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Client.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "41444"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ff++hq5pctH4NK+yAQsmxlaJdHzzp51yekr6aFPh6xI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:10 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "32mphhj4z7"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ff++hq5pctH4NK+yAQsmxlaJdHzzp51yekr6aFPh6xI="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Client.pdb"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Client.32mphhj4z7.pdb",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\xbmipl6i3z-32mphhj4z7.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000034169343"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "29265"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Pb2LhFmjSGU56p+hZSYwtbKrOxooz8CKqk6F+7udzyo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Ff++hq5pctH4NK+yAQsmxlaJdHzzp51yekr6aFPh6xI=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "32mphhj4z7"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ff++hq5pctH4NK+yAQsmxlaJdHzzp51yekr6aFPh6xI="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Client.pdb"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Client.32mphhj4z7.pdb.gz",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\xbmipl6i3z-32mphhj4z7.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "29265"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Pb2LhFmjSGU56p+hZSYwtbKrOxooz8CKqk6F+7udzyo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "32mphhj4z7"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Pb2LhFmjSGU56p+hZSYwtbKrOxooz8CKqk6F+7udzyo="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Client.pdb.gz"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Client.42qyayxcgv.wasm",
+      "Route": "_framework/Client.3gfp63mw1q.wasm",
       "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Client.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -10350,7 +10189,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "60693"
+          "Value": "44821"
         },
         {
           "Name": "Content-Type",
@@ -10358,21 +10197,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lCVFfT+Rg6zNUCvte+sRJpzgsDXMhRlSEcZoYPwbK0w=\""
+          "Value": "\"cyxY8hJUlOxsft+tOxwBITUa5gFRcNvJ0tE9UpEmiOw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:11 GMT"
+          "Value": "Sat, 23 Nov 2024 20:50:29 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "42qyayxcgv"
+          "Value": "3gfp63mw1q"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lCVFfT+Rg6zNUCvte+sRJpzgsDXMhRlSEcZoYPwbK0w="
+          "Value": "sha256-cyxY8hJUlOxsft+tOxwBITUa5gFRcNvJ0tE9UpEmiOw="
         },
         {
           "Name": "label",
@@ -10381,13 +10220,13 @@
       ]
     },
     {
-      "Route": "_framework/Client.42qyayxcgv.wasm",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\cpjbyt2peh-42qyayxcgv.gz",
+      "Route": "_framework/Client.3gfp63mw1q.wasm",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\cpjbyt2peh-3gfp63mw1q.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000043260080"
+          "Quality": "0.000054972239"
         }
       ],
       "ResponseHeaders": [
@@ -10405,15 +10244,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23115"
+          "Value": "18190"
         },
         {
           "Name": "ETag",
-          "Value": "\"/jjuNJtXNsQCwIMyIueWc3ahNtDf80sOG7gDPZKScq4=\""
+          "Value": "\"F/BTUcsO+Xu8b1VMi1nDovoI7/DHy8EiyZH74WM1wHE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Sat, 23 Nov 2024 20:50:29 GMT"
         },
         {
           "Name": "Vary",
@@ -10425,17 +10264,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"lCVFfT+Rg6zNUCvte+sRJpzgsDXMhRlSEcZoYPwbK0w=\""
+          "Value": "W/\"cyxY8hJUlOxsft+tOxwBITUa5gFRcNvJ0tE9UpEmiOw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "42qyayxcgv"
+          "Value": "3gfp63mw1q"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lCVFfT+Rg6zNUCvte+sRJpzgsDXMhRlSEcZoYPwbK0w="
+          "Value": "sha256-cyxY8hJUlOxsft+tOxwBITUa5gFRcNvJ0tE9UpEmiOw="
         },
         {
           "Name": "label",
@@ -10444,8 +10283,8 @@
       ]
     },
     {
-      "Route": "_framework/Client.42qyayxcgv.wasm.gz",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\cpjbyt2peh-42qyayxcgv.gz",
+      "Route": "_framework/Client.3gfp63mw1q.wasm.gz",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\cpjbyt2peh-3gfp63mw1q.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10462,7 +10301,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23115"
+          "Value": "18190"
         },
         {
           "Name": "Content-Type",
@@ -10470,11 +10309,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/jjuNJtXNsQCwIMyIueWc3ahNtDf80sOG7gDPZKScq4=\""
+          "Value": "\"F/BTUcsO+Xu8b1VMi1nDovoI7/DHy8EiyZH74WM1wHE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Sat, 23 Nov 2024 20:50:29 GMT"
         },
         {
           "Name": "Vary",
@@ -10484,11 +10323,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "42qyayxcgv"
+          "Value": "3gfp63mw1q"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/jjuNJtXNsQCwIMyIueWc3ahNtDf80sOG7gDPZKScq4="
+          "Value": "sha256-F/BTUcsO+Xu8b1VMi1nDovoI7/DHy8EiyZH74WM1wHE="
         },
         {
           "Name": "label",
@@ -10511,7 +10350,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "41444"
+          "Value": "37392"
         },
         {
           "Name": "Content-Type",
@@ -10519,28 +10358,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ff++hq5pctH4NK+yAQsmxlaJdHzzp51yekr6aFPh6xI=\""
+          "Value": "\"J1lLgBWMSOit47KIAnjG3pcyZJUowqk7RztPR/OhJeE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:10 GMT"
+          "Value": "Sat, 23 Nov 2024 20:53:19 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ff++hq5pctH4NK+yAQsmxlaJdHzzp51yekr6aFPh6xI="
+          "Value": "sha256-J1lLgBWMSOit47KIAnjG3pcyZJUowqk7RztPR/OhJeE="
         }
       ]
     },
     {
       "Route": "_framework/Client.pdb",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\xbmipl6i3z-32mphhj4z7.gz",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\xbmipl6i3z-pk7ygfawgd.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000034169343"
+          "Quality": "0.000037425150"
         }
       ],
       "ResponseHeaders": [
@@ -10558,15 +10397,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29265"
+          "Value": "26719"
         },
         {
           "Name": "ETag",
-          "Value": "\"Pb2LhFmjSGU56p+hZSYwtbKrOxooz8CKqk6F+7udzyo=\""
+          "Value": "\"34p1GKRUfvDnoenI11RhAfLcDFR1TQXfcxViJBWzESM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Sat, 23 Nov 2024 20:53:19 GMT"
         },
         {
           "Name": "Vary",
@@ -10578,19 +10417,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Ff++hq5pctH4NK+yAQsmxlaJdHzzp51yekr6aFPh6xI=\""
+          "Value": "W/\"J1lLgBWMSOit47KIAnjG3pcyZJUowqk7RztPR/OhJeE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ff++hq5pctH4NK+yAQsmxlaJdHzzp51yekr6aFPh6xI="
+          "Value": "sha256-J1lLgBWMSOit47KIAnjG3pcyZJUowqk7RztPR/OhJeE="
         }
       ]
     },
     {
       "Route": "_framework/Client.pdb.gz",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\xbmipl6i3z-32mphhj4z7.gz",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\xbmipl6i3z-pk7ygfawgd.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10607,7 +10446,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29265"
+          "Value": "26719"
         },
         {
           "Name": "Content-Type",
@@ -10615,11 +10454,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Pb2LhFmjSGU56p+hZSYwtbKrOxooz8CKqk6F+7udzyo=\""
+          "Value": "\"34p1GKRUfvDnoenI11RhAfLcDFR1TQXfcxViJBWzESM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Sat, 23 Nov 2024 20:53:19 GMT"
         },
         {
           "Name": "Vary",
@@ -10629,7 +10468,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Pb2LhFmjSGU56p+hZSYwtbKrOxooz8CKqk6F+7udzyo="
+          "Value": "sha256-34p1GKRUfvDnoenI11RhAfLcDFR1TQXfcxViJBWzESM="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Client.pk7ygfawgd.pdb",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Client.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37392"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J1lLgBWMSOit47KIAnjG3pcyZJUowqk7RztPR/OhJeE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 20:53:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pk7ygfawgd"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J1lLgBWMSOit47KIAnjG3pcyZJUowqk7RztPR/OhJeE="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Client.pdb"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Client.pk7ygfawgd.pdb",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\xbmipl6i3z-pk7ygfawgd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000037425150"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26719"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"34p1GKRUfvDnoenI11RhAfLcDFR1TQXfcxViJBWzESM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 20:53:19 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"J1lLgBWMSOit47KIAnjG3pcyZJUowqk7RztPR/OhJeE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pk7ygfawgd"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J1lLgBWMSOit47KIAnjG3pcyZJUowqk7RztPR/OhJeE="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Client.pdb"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Client.pk7ygfawgd.pdb.gz",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\xbmipl6i3z-pk7ygfawgd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26719"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"34p1GKRUfvDnoenI11RhAfLcDFR1TQXfcxViJBWzESM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 20:53:19 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pk7ygfawgd"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-34p1GKRUfvDnoenI11RhAfLcDFR1TQXfcxViJBWzESM="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Client.pdb.gz"
         }
       ]
     },
@@ -10648,7 +10648,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "60693"
+          "Value": "44821"
         },
         {
           "Name": "Content-Type",
@@ -10656,28 +10656,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lCVFfT+Rg6zNUCvte+sRJpzgsDXMhRlSEcZoYPwbK0w=\""
+          "Value": "\"cyxY8hJUlOxsft+tOxwBITUa5gFRcNvJ0tE9UpEmiOw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:11 GMT"
+          "Value": "Sat, 23 Nov 2024 20:50:29 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lCVFfT+Rg6zNUCvte+sRJpzgsDXMhRlSEcZoYPwbK0w="
+          "Value": "sha256-cyxY8hJUlOxsft+tOxwBITUa5gFRcNvJ0tE9UpEmiOw="
         }
       ]
     },
     {
       "Route": "_framework/Client.wasm",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\cpjbyt2peh-42qyayxcgv.gz",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\cpjbyt2peh-3gfp63mw1q.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000043260080"
+          "Quality": "0.000054972239"
         }
       ],
       "ResponseHeaders": [
@@ -10695,15 +10695,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23115"
+          "Value": "18190"
         },
         {
           "Name": "ETag",
-          "Value": "\"/jjuNJtXNsQCwIMyIueWc3ahNtDf80sOG7gDPZKScq4=\""
+          "Value": "\"F/BTUcsO+Xu8b1VMi1nDovoI7/DHy8EiyZH74WM1wHE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Sat, 23 Nov 2024 20:50:29 GMT"
         },
         {
           "Name": "Vary",
@@ -10715,19 +10715,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"lCVFfT+Rg6zNUCvte+sRJpzgsDXMhRlSEcZoYPwbK0w=\""
+          "Value": "W/\"cyxY8hJUlOxsft+tOxwBITUa5gFRcNvJ0tE9UpEmiOw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lCVFfT+Rg6zNUCvte+sRJpzgsDXMhRlSEcZoYPwbK0w="
+          "Value": "sha256-cyxY8hJUlOxsft+tOxwBITUa5gFRcNvJ0tE9UpEmiOw="
         }
       ]
     },
     {
       "Route": "_framework/Client.wasm.gz",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\cpjbyt2peh-42qyayxcgv.gz",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\cpjbyt2peh-3gfp63mw1q.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10744,7 +10744,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23115"
+          "Value": "18190"
         },
         {
           "Name": "Content-Type",
@@ -10752,11 +10752,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/jjuNJtXNsQCwIMyIueWc3ahNtDf80sOG7gDPZKScq4=\""
+          "Value": "\"F/BTUcsO+Xu8b1VMi1nDovoI7/DHy8EiyZH74WM1wHE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Sat, 23 Nov 2024 20:50:29 GMT"
         },
         {
           "Name": "Vary",
@@ -10766,7 +10766,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/jjuNJtXNsQCwIMyIueWc3ahNtDf80sOG7gDPZKScq4="
+          "Value": "sha256-F/BTUcsO+Xu8b1VMi1nDovoI7/DHy8EiyZH74WM1wHE="
         }
       ]
     },
@@ -10840,7 +10840,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Mon, 28 Oct 2024 23:44:42 GMT"
         },
         {
           "Name": "Vary",
@@ -10893,7 +10893,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Mon, 28 Oct 2024 23:44:42 GMT"
         },
         {
           "Name": "Vary",
@@ -10977,7 +10977,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Mon, 28 Oct 2024 23:44:42 GMT"
         },
         {
           "Name": "Vary",
@@ -11030,7 +11030,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Mon, 28 Oct 2024 23:44:42 GMT"
         },
         {
           "Name": "Vary",
@@ -11122,7 +11122,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Mon, 28 Oct 2024 23:44:42 GMT"
         },
         {
           "Name": "Vary",
@@ -11183,7 +11183,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Mon, 28 Oct 2024 23:44:42 GMT"
         },
         {
           "Name": "Vary",
@@ -11879,7 +11879,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Mon, 28 Oct 2024 23:44:42 GMT"
         },
         {
           "Name": "Vary",
@@ -11940,7 +11940,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Mon, 28 Oct 2024 23:44:42 GMT"
         },
         {
           "Name": "Vary",
@@ -12132,7 +12132,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Mon, 28 Oct 2024 23:44:48 GMT"
         },
         {
           "Name": "Vary",
@@ -12193,7 +12193,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Mon, 28 Oct 2024 23:44:48 GMT"
         },
         {
           "Name": "Vary",
@@ -12330,7 +12330,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Mon, 28 Oct 2024 23:44:48 GMT"
         },
         {
           "Name": "Vary",
@@ -12383,7 +12383,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Mon, 28 Oct 2024 23:44:48 GMT"
         },
         {
           "Name": "Vary",
@@ -25373,7 +25373,168 @@
       ]
     },
     {
-      "Route": "_framework/Share.idn7dfeliy.wasm",
+      "Route": "_framework/Share.hgw3hdlvas.pdb",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Share.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12728"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EdwAyU1Cxzdtt/LSqX1TmLH04GAmyfgLesFRKf9uXQg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 20:37:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hgw3hdlvas"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EdwAyU1Cxzdtt/LSqX1TmLH04GAmyfgLesFRKf9uXQg="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Share.pdb"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Share.hgw3hdlvas.pdb",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\tcxixgxc14-hgw3hdlvas.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000134879957"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7413"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e023XKgRCgS/+9KZOETY6ViLRgKGyr5wwfEtDMol3h0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 20:37:06 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EdwAyU1Cxzdtt/LSqX1TmLH04GAmyfgLesFRKf9uXQg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hgw3hdlvas"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EdwAyU1Cxzdtt/LSqX1TmLH04GAmyfgLesFRKf9uXQg="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Share.pdb"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Share.hgw3hdlvas.pdb.gz",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\tcxixgxc14-hgw3hdlvas.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7413"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e023XKgRCgS/+9KZOETY6ViLRgKGyr5wwfEtDMol3h0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 20:37:06 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hgw3hdlvas"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e023XKgRCgS/+9KZOETY6ViLRgKGyr5wwfEtDMol3h0="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Share.pdb.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Share.j93vbkm2b2.wasm",
       "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Share.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -25387,7 +25548,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "27413"
+          "Value": "10005"
         },
         {
           "Name": "Content-Type",
@@ -25395,21 +25556,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6qSFmBsBbe26RpboZrwgAsZDECLznJaUOm9zMf6BKpk=\""
+          "Value": "\"R70flT+hLhBnDU2L4LHklEgMOztzP3NragVNJavwPkU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:11 GMT"
+          "Value": "Sat, 23 Nov 2024 20:37:06 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "idn7dfeliy"
+          "Value": "j93vbkm2b2"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-6qSFmBsBbe26RpboZrwgAsZDECLznJaUOm9zMf6BKpk="
+          "Value": "sha256-R70flT+hLhBnDU2L4LHklEgMOztzP3NragVNJavwPkU="
         },
         {
           "Name": "label",
@@ -25418,13 +25579,13 @@
       ]
     },
     {
-      "Route": "_framework/Share.idn7dfeliy.wasm",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\janmimcupf-idn7dfeliy.gz",
+      "Route": "_framework/Share.j93vbkm2b2.wasm",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\janmimcupf-j93vbkm2b2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000083577100"
+          "Quality": "0.000218770510"
         }
       ],
       "ResponseHeaders": [
@@ -25442,15 +25603,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11964"
+          "Value": "4570"
         },
         {
           "Name": "ETag",
-          "Value": "\"Hui6/+4eqK+8liLANFqwJtJvMbRbjw5tKt1zK6goIEM=\""
+          "Value": "\"G3kNWTpuNQGu5Ezf5zLC0xVVehILWRqzpWPwSgKc6N8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Sat, 23 Nov 2024 20:37:06 GMT"
         },
         {
           "Name": "Vary",
@@ -25462,17 +25623,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"6qSFmBsBbe26RpboZrwgAsZDECLznJaUOm9zMf6BKpk=\""
+          "Value": "W/\"R70flT+hLhBnDU2L4LHklEgMOztzP3NragVNJavwPkU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "idn7dfeliy"
+          "Value": "j93vbkm2b2"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-6qSFmBsBbe26RpboZrwgAsZDECLznJaUOm9zMf6BKpk="
+          "Value": "sha256-R70flT+hLhBnDU2L4LHklEgMOztzP3NragVNJavwPkU="
         },
         {
           "Name": "label",
@@ -25481,8 +25642,8 @@
       ]
     },
     {
-      "Route": "_framework/Share.idn7dfeliy.wasm.gz",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\janmimcupf-idn7dfeliy.gz",
+      "Route": "_framework/Share.j93vbkm2b2.wasm.gz",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\janmimcupf-j93vbkm2b2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -25499,7 +25660,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11964"
+          "Value": "4570"
         },
         {
           "Name": "Content-Type",
@@ -25507,11 +25668,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Hui6/+4eqK+8liLANFqwJtJvMbRbjw5tKt1zK6goIEM=\""
+          "Value": "\"G3kNWTpuNQGu5Ezf5zLC0xVVehILWRqzpWPwSgKc6N8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Sat, 23 Nov 2024 20:37:06 GMT"
         },
         {
           "Name": "Vary",
@@ -25521,11 +25682,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "idn7dfeliy"
+          "Value": "j93vbkm2b2"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Hui6/+4eqK+8liLANFqwJtJvMbRbjw5tKt1zK6goIEM="
+          "Value": "sha256-G3kNWTpuNQGu5Ezf5zLC0xVVehILWRqzpWPwSgKc6N8="
         },
         {
           "Name": "label",
@@ -25548,7 +25709,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18880"
+          "Value": "12728"
         },
         {
           "Name": "Content-Type",
@@ -25556,28 +25717,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gQcLYLYorrLB/PFyu6ZGl9LByP86DDASOaowneo7c14=\""
+          "Value": "\"EdwAyU1Cxzdtt/LSqX1TmLH04GAmyfgLesFRKf9uXQg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:08 GMT"
+          "Value": "Sat, 23 Nov 2024 20:37:06 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gQcLYLYorrLB/PFyu6ZGl9LByP86DDASOaowneo7c14="
+          "Value": "sha256-EdwAyU1Cxzdtt/LSqX1TmLH04GAmyfgLesFRKf9uXQg="
         }
       ]
     },
     {
       "Route": "_framework/Share.pdb",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\tcxixgxc14-znulacrfp0.gz",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\tcxixgxc14-hgw3hdlvas.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000096683747"
+          "Quality": "0.000134879957"
         }
       ],
       "ResponseHeaders": [
@@ -25595,15 +25756,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10342"
+          "Value": "7413"
         },
         {
           "Name": "ETag",
-          "Value": "\"7VYcLtrIgbMOGvkPWri8zwBbxEc9zqlBmnq6HfS3zmU=\""
+          "Value": "\"e023XKgRCgS/+9KZOETY6ViLRgKGyr5wwfEtDMol3h0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Sat, 23 Nov 2024 20:37:06 GMT"
         },
         {
           "Name": "Vary",
@@ -25615,19 +25776,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"gQcLYLYorrLB/PFyu6ZGl9LByP86DDASOaowneo7c14=\""
+          "Value": "W/\"EdwAyU1Cxzdtt/LSqX1TmLH04GAmyfgLesFRKf9uXQg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gQcLYLYorrLB/PFyu6ZGl9LByP86DDASOaowneo7c14="
+          "Value": "sha256-EdwAyU1Cxzdtt/LSqX1TmLH04GAmyfgLesFRKf9uXQg="
         }
       ]
     },
     {
       "Route": "_framework/Share.pdb.gz",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\tcxixgxc14-znulacrfp0.gz",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\tcxixgxc14-hgw3hdlvas.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -25644,7 +25805,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10342"
+          "Value": "7413"
         },
         {
           "Name": "Content-Type",
@@ -25652,11 +25813,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7VYcLtrIgbMOGvkPWri8zwBbxEc9zqlBmnq6HfS3zmU=\""
+          "Value": "\"e023XKgRCgS/+9KZOETY6ViLRgKGyr5wwfEtDMol3h0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Sat, 23 Nov 2024 20:37:06 GMT"
         },
         {
           "Name": "Vary",
@@ -25666,7 +25827,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7VYcLtrIgbMOGvkPWri8zwBbxEc9zqlBmnq6HfS3zmU="
+          "Value": "sha256-e023XKgRCgS/+9KZOETY6ViLRgKGyr5wwfEtDMol3h0="
         }
       ]
     },
@@ -25685,7 +25846,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "27413"
+          "Value": "10005"
         },
         {
           "Name": "Content-Type",
@@ -25693,28 +25854,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6qSFmBsBbe26RpboZrwgAsZDECLznJaUOm9zMf6BKpk=\""
+          "Value": "\"R70flT+hLhBnDU2L4LHklEgMOztzP3NragVNJavwPkU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:11 GMT"
+          "Value": "Sat, 23 Nov 2024 20:37:06 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6qSFmBsBbe26RpboZrwgAsZDECLznJaUOm9zMf6BKpk="
+          "Value": "sha256-R70flT+hLhBnDU2L4LHklEgMOztzP3NragVNJavwPkU="
         }
       ]
     },
     {
       "Route": "_framework/Share.wasm",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\janmimcupf-idn7dfeliy.gz",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\janmimcupf-j93vbkm2b2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000083577100"
+          "Quality": "0.000218770510"
         }
       ],
       "ResponseHeaders": [
@@ -25732,15 +25893,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11964"
+          "Value": "4570"
         },
         {
           "Name": "ETag",
-          "Value": "\"Hui6/+4eqK+8liLANFqwJtJvMbRbjw5tKt1zK6goIEM=\""
+          "Value": "\"G3kNWTpuNQGu5Ezf5zLC0xVVehILWRqzpWPwSgKc6N8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Sat, 23 Nov 2024 20:37:06 GMT"
         },
         {
           "Name": "Vary",
@@ -25752,19 +25913,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"6qSFmBsBbe26RpboZrwgAsZDECLznJaUOm9zMf6BKpk=\""
+          "Value": "W/\"R70flT+hLhBnDU2L4LHklEgMOztzP3NragVNJavwPkU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6qSFmBsBbe26RpboZrwgAsZDECLznJaUOm9zMf6BKpk="
+          "Value": "sha256-R70flT+hLhBnDU2L4LHklEgMOztzP3NragVNJavwPkU="
         }
       ]
     },
     {
       "Route": "_framework/Share.wasm.gz",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\janmimcupf-idn7dfeliy.gz",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\janmimcupf-j93vbkm2b2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -25781,7 +25942,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11964"
+          "Value": "4570"
         },
         {
           "Name": "Content-Type",
@@ -25789,11 +25950,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Hui6/+4eqK+8liLANFqwJtJvMbRbjw5tKt1zK6goIEM=\""
+          "Value": "\"G3kNWTpuNQGu5Ezf5zLC0xVVehILWRqzpWPwSgKc6N8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
+          "Value": "Sat, 23 Nov 2024 20:37:06 GMT"
         },
         {
           "Name": "Vary",
@@ -25803,168 +25964,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Hui6/+4eqK+8liLANFqwJtJvMbRbjw5tKt1zK6goIEM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Share.znulacrfp0.pdb",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Share.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18880"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gQcLYLYorrLB/PFyu6ZGl9LByP86DDASOaowneo7c14=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:08 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "znulacrfp0"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gQcLYLYorrLB/PFyu6ZGl9LByP86DDASOaowneo7c14="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Share.pdb"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Share.znulacrfp0.pdb",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\tcxixgxc14-znulacrfp0.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000096683747"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10342"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7VYcLtrIgbMOGvkPWri8zwBbxEc9zqlBmnq6HfS3zmU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"gQcLYLYorrLB/PFyu6ZGl9LByP86DDASOaowneo7c14=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "znulacrfp0"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gQcLYLYorrLB/PFyu6ZGl9LByP86DDASOaowneo7c14="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Share.pdb"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Share.znulacrfp0.pdb.gz",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\tcxixgxc14-znulacrfp0.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10342"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7VYcLtrIgbMOGvkPWri8zwBbxEc9zqlBmnq6HfS3zmU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:12 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "znulacrfp0"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-7VYcLtrIgbMOGvkPWri8zwBbxEc9zqlBmnq6HfS3zmU="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Share.pdb.gz"
+          "Value": "sha256-G3kNWTpuNQGu5Ezf5zLC0xVVehILWRqzpWPwSgKc6N8="
         }
       ]
     },
@@ -74543,13 +74543,13 @@
       ]
     },
     {
-      "Route": "Client.g097pql18h.styles.css",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\ui8zywzy6c-g097pql18h.gz",
+      "Route": "Client.l3eaetbl53.styles.css",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\ui8zywzy6c-l3eaetbl53.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000416319734"
+          "Quality": "0.000553403431"
         }
       ],
       "ResponseHeaders": [
@@ -74567,15 +74567,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2401"
+          "Value": "1806"
         },
         {
           "Name": "ETag",
-          "Value": "\"MFsLxB5r0LgIpyKvuxQr+xfUy75CLNDKz+vGf9cxLzM=\""
+          "Value": "\"oGXMjJmxgDOz5WZnzO3EagpBzFOBgXc1b6kAdtctdX0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:11 GMT"
+          "Value": "Sat, 23 Nov 2024 20:23:52 GMT"
         },
         {
           "Name": "Vary",
@@ -74587,17 +74587,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"YBohP96/zfU2+60TgQzLjAEMshhJSsSdoB9gAvdPdkM=\""
+          "Value": "W/\"4bek7PCIZ1A3qJErlOMLXbD6GX3IMb4kDcRk0T86Gt4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "g097pql18h"
+          "Value": "l3eaetbl53"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YBohP96/zfU2+60TgQzLjAEMshhJSsSdoB9gAvdPdkM="
+          "Value": "sha256-4bek7PCIZ1A3qJErlOMLXbD6GX3IMb4kDcRk0T86Gt4="
         },
         {
           "Name": "label",
@@ -74606,7 +74606,7 @@
       ]
     },
     {
-      "Route": "Client.g097pql18h.styles.css",
+      "Route": "Client.l3eaetbl53.styles.css",
       "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Client.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -74620,7 +74620,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13654"
+          "Value": "9262"
         },
         {
           "Name": "Content-Type",
@@ -74628,21 +74628,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YBohP96/zfU2+60TgQzLjAEMshhJSsSdoB9gAvdPdkM=\""
+          "Value": "\"4bek7PCIZ1A3qJErlOMLXbD6GX3IMb4kDcRk0T86Gt4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:11 GMT"
+          "Value": "Sat, 23 Nov 2024 20:23:52 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "g097pql18h"
+          "Value": "l3eaetbl53"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YBohP96/zfU2+60TgQzLjAEMshhJSsSdoB9gAvdPdkM="
+          "Value": "sha256-4bek7PCIZ1A3qJErlOMLXbD6GX3IMb4kDcRk0T86Gt4="
         },
         {
           "Name": "label",
@@ -74651,8 +74651,8 @@
       ]
     },
     {
-      "Route": "Client.g097pql18h.styles.css.gz",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\ui8zywzy6c-g097pql18h.gz",
+      "Route": "Client.l3eaetbl53.styles.css.gz",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\ui8zywzy6c-l3eaetbl53.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -74669,7 +74669,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2401"
+          "Value": "1806"
         },
         {
           "Name": "Content-Type",
@@ -74677,11 +74677,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MFsLxB5r0LgIpyKvuxQr+xfUy75CLNDKz+vGf9cxLzM=\""
+          "Value": "\"oGXMjJmxgDOz5WZnzO3EagpBzFOBgXc1b6kAdtctdX0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:11 GMT"
+          "Value": "Sat, 23 Nov 2024 20:23:52 GMT"
         },
         {
           "Name": "Vary",
@@ -74691,11 +74691,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "g097pql18h"
+          "Value": "l3eaetbl53"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MFsLxB5r0LgIpyKvuxQr+xfUy75CLNDKz+vGf9cxLzM="
+          "Value": "sha256-oGXMjJmxgDOz5WZnzO3EagpBzFOBgXc1b6kAdtctdX0="
         },
         {
           "Name": "label",
@@ -74705,12 +74705,12 @@
     },
     {
       "Route": "Client.styles.css",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\ui8zywzy6c-g097pql18h.gz",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\ui8zywzy6c-l3eaetbl53.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000416319734"
+          "Quality": "0.000553403431"
         }
       ],
       "ResponseHeaders": [
@@ -74728,15 +74728,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2401"
+          "Value": "1806"
         },
         {
           "Name": "ETag",
-          "Value": "\"MFsLxB5r0LgIpyKvuxQr+xfUy75CLNDKz+vGf9cxLzM=\""
+          "Value": "\"oGXMjJmxgDOz5WZnzO3EagpBzFOBgXc1b6kAdtctdX0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:11 GMT"
+          "Value": "Sat, 23 Nov 2024 20:23:52 GMT"
         },
         {
           "Name": "Vary",
@@ -74748,13 +74748,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"YBohP96/zfU2+60TgQzLjAEMshhJSsSdoB9gAvdPdkM=\""
+          "Value": "W/\"4bek7PCIZ1A3qJErlOMLXbD6GX3IMb4kDcRk0T86Gt4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YBohP96/zfU2+60TgQzLjAEMshhJSsSdoB9gAvdPdkM="
+          "Value": "sha256-4bek7PCIZ1A3qJErlOMLXbD6GX3IMb4kDcRk0T86Gt4="
         }
       ]
     },
@@ -74773,7 +74773,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13654"
+          "Value": "9262"
         },
         {
           "Name": "Content-Type",
@@ -74781,23 +74781,23 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YBohP96/zfU2+60TgQzLjAEMshhJSsSdoB9gAvdPdkM=\""
+          "Value": "\"4bek7PCIZ1A3qJErlOMLXbD6GX3IMb4kDcRk0T86Gt4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:11 GMT"
+          "Value": "Sat, 23 Nov 2024 20:23:52 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YBohP96/zfU2+60TgQzLjAEMshhJSsSdoB9gAvdPdkM="
+          "Value": "sha256-4bek7PCIZ1A3qJErlOMLXbD6GX3IMb4kDcRk0T86Gt4="
         }
       ]
     },
     {
       "Route": "Client.styles.css.gz",
-      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\ui8zywzy6c-g097pql18h.gz",
+      "AssetFile": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Client\\obj\\Debug\\net9.0\\compressed\\ui8zywzy6c-l3eaetbl53.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -74814,7 +74814,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2401"
+          "Value": "1806"
         },
         {
           "Name": "Content-Type",
@@ -74822,11 +74822,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MFsLxB5r0LgIpyKvuxQr+xfUy75CLNDKz+vGf9cxLzM=\""
+          "Value": "\"oGXMjJmxgDOz5WZnzO3EagpBzFOBgXc1b6kAdtctdX0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 11:04:11 GMT"
+          "Value": "Sat, 23 Nov 2024 20:23:52 GMT"
         },
         {
           "Name": "Vary",
@@ -74836,7 +74836,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MFsLxB5r0LgIpyKvuxQr+xfUy75CLNDKz+vGf9cxLzM="
+          "Value": "sha256-oGXMjJmxgDOz5WZnzO3EagpBzFOBgXc1b6kAdtctdX0="
         }
       ]
     },
