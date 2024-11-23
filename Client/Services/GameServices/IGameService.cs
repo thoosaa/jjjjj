@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Share.Models;
+using System;
 using System.Threading.Tasks;
 
 namespace Client.Services
@@ -16,5 +17,7 @@ namespace Client.Services
         Task<string> BankPoints(string game);
         Task EndGame(string game, string username);
         Task DeleteGame(string game);
+
+        Task<PigGame> GetGameState(string game);
     }
 }

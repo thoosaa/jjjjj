@@ -1,7 +1,10 @@
-﻿using Microsoft.AspNetCore.SignalR;
+﻿using Client.Pages;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.AspNetCore.SignalR.Client;
 using Microsoft.JSInterop;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using Share.Models;
 
 namespace Client.Services
 {
@@ -132,6 +135,22 @@ namespace Client.Services
             {
                 Console.WriteLine(ex.Message);
                 return;
+            }
+        }
+
+        public async Task<PigGame> GetGameState(string game)
+        {
+            try
+            {
+                var result = await _connection.InvokeAsync<string>("GetGameState", game);
+
+                return JsonConvert.DeserializeObject<PigGame>(result) ?? new PigGame(new List<string>());
+            }
+
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error fetching game state: {ex.Message}");
+                return new PigGame(new List<string>());
             }
         }
     }

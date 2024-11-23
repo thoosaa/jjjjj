@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>g097pql18h</Fingerprint>
-      <Integrity>YBohP96/zfU2+60TgQzLjAEMshhJSsSdoB9gAvdPdkM=</Integrity>
+      <Fingerprint>l3eaetbl53</Fingerprint>
+      <Integrity>4bek7PCIZ1A3qJErlOMLXbD6GX3IMb4kDcRk0T86Gt4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Client.styles.css'))</OriginalItemSpec>

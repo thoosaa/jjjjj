@@ -1,5 +1,4 @@
-﻿@page "/play?GameId={GameId}&Username={Username}"
-
+﻿@page "/play"
 @using Share.Models
 @inject IGameService GameService
 @inject NavigationManager NavigationManager
@@ -13,8 +12,8 @@
     <p>Очки за ход: @game.GetCurrentPlayer().Score.TurnScore</p>
     <p>@message</p>
 
-    <button @onclick="RollDice" class="btn btn-primary">Бросить кости</button>
-    <button @onclick="BankPoints" class="btn btn-success">Сохранить очки</button>
+    <button @onclick="() => HandleGameAction(GameAction.RollDice)" class="btn btn-primary">Бросить кости</button>
+    <button @onclick="() => HandleGameAction(GameAction.BankPoints)" class="btn btn-success">Сохранить очки</button>
 
     <h5>Результаты игры:</h5>
     <ul>
@@ -30,43 +29,108 @@ else
 }
 
 @code {
-    [Parameter] public string GameId { get; set; } = "";
-    [Parameter] public string Username { get; set; } = "";
+    [SupplyParameterFromQuery]
+    [Parameter]
+    public string GameId { get; set; } = string.Empty;
 
-    private PigGame game;
-    private string message = "";
+    [SupplyParameterFromQuery]
+    [Parameter]
+    public string Username { get; set; } = string.Empty;
+
+    private PigGame? game;
+    private string message = string.Empty;
+    private IDisposable? _rollResultSubscription;
+    private IDisposable? _bankResultSubscription;
+    private IDisposable? _finishSubscription;
 
     protected override async Task OnInitializedAsync()
     {
-        // Fetch game state from the server
-        game = await GameService.GetGameState(GameId);
+        try
+        {
+            await GameService.ConnectToHub();
+            SubscribeToHubEvents();
+
+            game = await FetchGameState(GameId);
+        }
+        catch (Exception ex)
+        {
+            message = $"Ошибка: {ex.Message}";
+            StateHasChanged();
+        }
     }
 
-    private async Task RollDice()
+    private async Task<PigGame?> FetchGameState(string gameId)
     {
-        var result = await GameService.RollDice(GameId);
-        message = result;
-
-        if (game.IsGameOver)
+        try
         {
-            await GameService.EndGame(GameId, game.GetCurrentPlayer().Name);
-            NavigationManager.NavigateTo($"/results?GameId={GameId}&Username={game.GetCurrentPlayer().Name}");
+            return await GameService.GetGameState(gameId);
         }
-
-        StateHasChanged(); // Refresh the UI
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Ошибка при получении состояния игры: {ex.Message}");
+            return null;
+        }
     }
 
-    private async Task BankPoints()
+    private void SubscribeToHubEvents()
     {
-        var result = await GameService.BankPoints(GameId);
-        message = result;
+        _rollResultSubscription = GameService.CreateConnection("ReceiveRollResult", UpdateMessage);
+        _bankResultSubscription = GameService.CreateConnection("ReceiveBankResult", UpdateMessage);
+        _finishSubscription = GameService.CreateConnection("Finish", winner => NavigateToResults(winner));
+    }
 
-        if (game.IsGameOver)
+    private async Task HandleGameAction(GameAction action)
+    {
+        try
         {
-            await GameService.EndGame(GameId, game.GetCurrentPlayer().Name);
-            NavigationManager.NavigateTo($"/results?GameId={GameId}&Username={game.GetCurrentPlayer().Name}");
+            switch (action)
+            {
+                case GameAction.RollDice:
+                    message = await GameService.RollDice(GameId);
+                    break;
+
+                case GameAction.BankPoints:
+                    message = await GameService.BankPoints(GameId);
+                    break;
+
+                default:
+                    throw new InvalidOperationException("Неизвестное действие.");
+            }
+
+            await CheckGameOver();
+        }
+        catch (Exception ex)
+        {
+            message = $"Ошибка: {ex.Message}";
         }
 
-        StateHasChanged(); // Refresh the UI
+        StateHasChanged();
+    }
+
+    private async Task CheckGameOver()
+    {
+        if (game?.IsGameOver == true)
+        {
+            await GameService.EndGame(GameId, game.GetCurrentPlayer().Name);
+            NavigateToResults(game.GetCurrentPlayer().Name);
+        }
+    }
+
+    private void UpdateMessage(string result)
+    {
+        message = result;
+        StateHasChanged();
+    }
+
+    private void NavigateToResults(string winner)
+    {
+        NavigationManager.NavigateTo($"/results?GameId={GameId}&Username={winner}");
+    }
+
+    public void Dispose()
+    {
+        _rollResultSubscription?.Dispose();
+        _bankResultSubscription?.Dispose();
+        _finishSubscription?.Dispose();
     }
 }
