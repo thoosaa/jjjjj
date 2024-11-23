@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 
 namespace Share.Models
@@ -19,7 +20,7 @@ namespace Share.Models
             {
                 if (value is not null)
                 {
-                    Action onGameEnd = () => value(GetCurrentPlayer().Name);
+                    Action onGameEnd = () => value(GetCurrentPlayer()?.Name ?? "Unknown");
                     _eventsDictionary ??= new();
                     _eventsDictionary[value] = onGameEnd;
                     OnGameOver += onGameEnd;
@@ -39,7 +40,7 @@ namespace Share.Models
 
         public PigGame(List<string> playerNames)
         {
-            if (playerNames.Count < 2 || playerNames.Count > 5)
+            if ( playerNames.Count > 5)
             {
                 throw new ArgumentException("Игра должна иметь от 2 до 5 игроков.");
             }
@@ -58,6 +59,12 @@ namespace Share.Models
 
         public Player GetCurrentPlayer()
         {
+            // Check if there are players in the list
+            if (_players.Count == 0)
+            {
+                throw new InvalidOperationException("No players in the game.");
+            }
+
             return _players[_currentPlayerIndex];
         }
 
@@ -120,7 +127,7 @@ namespace Share.Models
             };
         }
 
-        public string BankPoints()
+public string BankPoints()
         {
             if (IsGameOver)
             {
@@ -142,6 +149,7 @@ namespace Share.Models
 
         private void NextPlayer()
         {
+            // Ensure the index is within bounds of the players list
             _currentPlayerIndex = (_currentPlayerIndex + 1) % _players.Count;
         }
 
@@ -149,45 +157,6 @@ namespace Share.Models
         {
             var playerInfo = string.Join("\n", _players);
             return $"Игроки:\n{playerInfo}\nХод: {GetCurrentPlayer().Name}";
-        }
-    }
-
-    public class Player
-    {
-        public string Name { get; }
-        public Score Score { get; }
-
-        public Player(string name)
-        {
-            Name = name;
-            Score = new Score();
-        }
-
-        public override string ToString()
-        {
-            return $"{Name} (Общий счет: {Score.TotalScore})";
-        }
-    }
-
-    public class Score
-    {
-        public int TotalScore { get; private set; }
-        public int TurnScore { get; private set; }
-
-        public void AddTurnScore(int score)
-        {
-            TurnScore += score;
-        }
-
-        public void ResetTurnScore()
-        {
-            TurnScore = 0;
-        }
-
-        public void BankScore()
-        {
-            TotalScore += TurnScore;
-            ResetTurnScore();
         }
     }
 
@@ -212,5 +181,11 @@ namespace Share.Models
         public string? CurrentPlayerName { get; set; }
         public int? Roll { get; set; }
         public int? TotalScore { get; set; }
+    }
+
+    public enum GameAction
+    {
+        RollDice,
+        BankPoints
     }
 }
