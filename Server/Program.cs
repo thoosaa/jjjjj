@@ -1,19 +1,43 @@
+using Microsoft.AspNetCore.ResponseCompression;
 using Server.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddSignalR();
-builder.Services.AddCors();
+builder.Services.AddResponseCompression(opts =>
+{
+    opts.MimeTypes = ResponseCompressionDefaults.MimeTypes.Concat(
+        new[] { "application/octet-stream" });
+});
+
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.WithOrigins("https://localhost:5002", "http://localhost:5002")
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowCredentials();
+    });
+});
 
 var app = builder.Build();
 
-app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyHeader());
+app.UseResponseCompression();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseWebAssemblyDebugging();
+}
 
 app.UseHttpsRedirection();
-
-app.UseDefaultFiles();
+app.UseBlazorFrameworkFiles();
 app.UseStaticFiles();
 
+app.UseRouting();
+app.UseCors();
+
 app.MapHub<GameHub>("/gamehub");
+app.MapFallbackToFile("index.html");
 
 app.Run();

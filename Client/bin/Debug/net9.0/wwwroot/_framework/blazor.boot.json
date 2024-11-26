@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Client",
   "resources": {
-    "hash": "sha256-t5Ct+DwXslWyIWejiWNJJwTC+FKjv7fmIzUfEXoMCdo=",
+    "hash": "sha256-6r+d9n80YmxPgcys20pjkYH0RmXCAUq5BW3NZBTtAyE=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.qe23mgxr71.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.flveird317.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -213,10 +213,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "Share.j93vbkm2b2.wasm": "Share.wasm",
-      "Share.hgw3hdlvas.pdb": "Share.pdb",
-      "Client.3gfp63mw1q.wasm": "Client.wasm",
-      "Client.pk7ygfawgd.pdb": "Client.pdb"
+      "Share.8dq9ksfyf6.wasm": "Share.wasm",
+      "Share.wuci2g8rhl.pdb": "Share.pdb",
+      "Client.2vk3fd2mwd.wasm": "Client.wasm",
+      "Client.xshddhyt4p.pdb": "Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hmanx9razn.js": "sha256-d7UNSArplVrX3arY2Kmhxp1wN79ng8hLqIBrkiQ9Gbo="
@@ -438,12 +438,12 @@
       "WindowsBase.377bly7twj.wasm": "sha256-0VmBdMjdc0nZGHDSfaGirT6y3mJTM0qx8eqCUC/rpiE=",
       "mscorlib.o0184ey5ia.wasm": "sha256-2GxNKZQJVJvYMUxSTuXa5V2qxawSMMHZtwG33SKVCZU=",
       "netstandard.hb3h2rr8mk.wasm": "sha256-DWn9+RH/ElZQ6imlYqVwZvir1KTzNwY18AzGmnyiymU=",
-      "Share.j93vbkm2b2.wasm": "sha256-R70flT+hLhBnDU2L4LHklEgMOztzP3NragVNJavwPkU=",
-      "Client.3gfp63mw1q.wasm": "sha256-cyxY8hJUlOxsft+tOxwBITUa5gFRcNvJ0tE9UpEmiOw="
+      "Share.8dq9ksfyf6.wasm": "sha256-vOF+n6meMQgeiaTp0Dr4LtHs6jOrOgi4pT1rZku1c/M=",
+      "Client.2vk3fd2mwd.wasm": "sha256-Xu84nib1eIVKdcCwYHBeDi98hI+MsURukyUbUje7BBg="
     },
     "pdb": {
-      "Share.hgw3hdlvas.pdb": "sha256-EdwAyU1Cxzdtt/LSqX1TmLH04GAmyfgLesFRKf9uXQg=",
-      "Client.pk7ygfawgd.pdb": "sha256-J1lLgBWMSOit47KIAnjG3pcyZJUowqk7RztPR/OhJeE="
+      "Share.wuci2g8rhl.pdb": "sha256-mNM4TheiZmUapi5/SxG5dqFBfDtnT/HLo00A7rRXg7A=",
+      "Client.xshddhyt4p.pdb": "sha256-YQyRo4eaEu5eabGFZOS2lXTfvHmGIz6mphTR+AZr3GE="
     }
   },
   "cacheBootResources": true,

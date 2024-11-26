@@ -1,0 +1,180 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tanechka\\Desktop\\PIG GAME\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD894591-6A54-4108-BA88-9BD92CF1855B}|Server\\Server.csproj|c:\\users\\tanechka\\desktop\\pig game\\server\\hubs\\gamehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD894591-6A54-4108-BA88-9BD92CF1855B}|Server\\Server.csproj|solutionrelative:server\\hubs\\gamehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{698EB762-E52B-4959-96F9-EEC088BDB57F}|Client\\Client.csproj|c:\\users\\tanechka\\desktop\\pig game\\client\\pages\\playpig.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{698EB762-E52B-4959-96F9-EEC088BDB57F}|Client\\Client.csproj|solutionrelative:client\\pages\\playpig.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{698EB762-E52B-4959-96F9-EEC088BDB57F}|Client\\Client.csproj|c:\\users\\tanechka\\desktop\\pig game\\client\\pages\\gamelobby.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{698EB762-E52B-4959-96F9-EEC088BDB57F}|Client\\Client.csproj|solutionrelative:client\\pages\\gamelobby.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{698EB762-E52B-4959-96F9-EEC088BDB57F}|Client\\Client.csproj|c:\\users\\tanechka\\desktop\\pig game\\client\\pages\\gamelobby.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{698EB762-E52B-4959-96F9-EEC088BDB57F}|Client\\Client.csproj|solutionrelative:client\\pages\\gamelobby.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4EF7D0B-565B-4A7F-975A-0D15549F7BE8}|Share\\Share.csproj|c:\\users\\tanechka\\desktop\\pig game\\share\\models\\piggame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4EF7D0B-565B-4A7F-975A-0D15549F7BE8}|Share\\Share.csproj|solutionrelative:share\\models\\piggame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{698EB762-E52B-4959-96F9-EEC088BDB57F}|Client\\Client.csproj|c:\\users\\tanechka\\desktop\\pig game\\client\\pages\\joingame.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{698EB762-E52B-4959-96F9-EEC088BDB57F}|Client\\Client.csproj|solutionrelative:client\\pages\\joingame.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{698EB762-E52B-4959-96F9-EEC088BDB57F}|Client\\Client.csproj|c:\\users\\tanechka\\desktop\\pig game\\client\\pages\\creategame.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{698EB762-E52B-4959-96F9-EEC088BDB57F}|Client\\Client.csproj|solutionrelative:client\\pages\\creategame.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{698EB762-E52B-4959-96F9-EEC088BDB57F}|Client\\Client.csproj|c:\\users\\tanechka\\desktop\\pig game\\client\\services\\gameservices\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{698EB762-E52B-4959-96F9-EEC088BDB57F}|Client\\Client.csproj|solutionrelative:client\\services\\gameservices\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tanechka\\AppData\\Local\\Temp\\.vsdbgsrc\\d20021878b4dd5602f6a4ef2d20c4e750ce37888350855b8d653bca124c0e772\\StaticAssetsEndpointRouteBuilderExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{698EB762-E52B-4959-96F9-EEC088BDB57F}|Client\\Client.csproj|c:\\users\\tanechka\\desktop\\pig game\\client\\pages\\playpig.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{698EB762-E52B-4959-96F9-EEC088BDB57F}|Client\\Client.csproj|solutionrelative:client\\pages\\playpig.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameHub.cs",
+              "DocumentMoniker": "C:\\Users\\Tanechka\\Desktop\\PIG GAME\\Server\\Hubs\\GameHub.cs",
+              "RelativeDocumentMoniker": "Server\\Hubs\\GameHub.cs",
+              "ToolTip": "C:\\Users\\Tanechka\\Desktop\\PIG GAME\\Server\\Hubs\\GameHub.cs",
+              "RelativeToolTip": "Server\\Hubs\\GameHub.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIA7wBgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T18:11:06.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PigGame.cs",
+              "DocumentMoniker": "C:\\Users\\Tanechka\\Desktop\\PIG GAME\\Share\\Models\\PigGame.cs",
+              "RelativeDocumentMoniker": "Share\\Models\\PigGame.cs",
+              "ToolTip": "C:\\Users\\Tanechka\\Desktop\\PIG GAME\\Share\\Models\\PigGame.cs",
+              "RelativeToolTip": "Share\\Models\\PigGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T12:00:48.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JoinGame.razor",
+              "DocumentMoniker": "C:\\Users\\Tanechka\\Desktop\\PIG GAME\\Client\\Pages\\JoinGame.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\JoinGame.razor",
+              "ToolTip": "C:\\Users\\Tanechka\\Desktop\\PIG GAME\\Client\\Pages\\JoinGame.razor",
+              "RelativeToolTip": "Client\\Pages\\JoinGame.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T18:19:04.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameLobby.razor",
+              "DocumentMoniker": "C:\\Users\\Tanechka\\Desktop\\PIG GAME\\Client\\Pages\\GameLobby.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\GameLobby.razor",
+              "ToolTip": "C:\\Users\\Tanechka\\Desktop\\PIG GAME\\Client\\Pages\\GameLobby.razor",
+              "RelativeToolTip": "Client\\Pages\\GameLobby.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T18:18:57.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateGame.razor",
+              "DocumentMoniker": "C:\\Users\\Tanechka\\Desktop\\PIG GAME\\Client\\Pages\\CreateGame.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\CreateGame.razor",
+              "ToolTip": "C:\\Users\\Tanechka\\Desktop\\PIG GAME\\Client\\Pages\\CreateGame.razor",
+              "RelativeToolTip": "Client\\Pages\\CreateGame.razor",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAGkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T18:18:53.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameLobby.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Tanechka\\Desktop\\PIG GAME\\Client\\Pages\\GameLobby.razor.cs",
+              "RelativeDocumentMoniker": "Client\\Pages\\GameLobby.razor.cs",
+              "ToolTip": "C:\\Users\\Tanechka\\Desktop\\PIG GAME\\Client\\Pages\\GameLobby.razor.cs",
+              "RelativeToolTip": "Client\\Pages\\GameLobby.razor.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAowFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T18:17:36.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayPig.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Tanechka\\Desktop\\PIG GAME\\Client\\Pages\\PlayPig.razor.cs",
+              "RelativeDocumentMoniker": "Client\\Pages\\PlayPig.razor.cs",
+              "ToolTip": "C:\\Users\\Tanechka\\Desktop\\PIG GAME\\Client\\Pages\\PlayPig.razor.cs",
+              "RelativeToolTip": "Client\\Pages\\PlayPig.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T18:16:11.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "C:\\Users\\Tanechka\\Desktop\\PIG GAME\\Client\\Services\\GameServices\\GameService.cs",
+              "RelativeDocumentMoniker": "Client\\Services\\GameServices\\GameService.cs",
+              "ToolTip": "C:\\Users\\Tanechka\\Desktop\\PIG GAME\\Client\\Services\\GameServices\\GameService.cs",
+              "RelativeToolTip": "Client\\Services\\GameServices\\GameService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowEAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T18:11:59.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlayPig.razor",
+              "DocumentMoniker": "C:\\Users\\Tanechka\\Desktop\\PIG GAME\\Client\\Pages\\PlayPig.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\PlayPig.razor",
+              "ToolTip": "C:\\Users\\Tanechka\\Desktop\\PIG GAME\\Client\\Pages\\PlayPig.razor",
+              "RelativeToolTip": "Client\\Pages\\PlayPig.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T18:27:18.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StaticAssetsEndpointRouteBuilderExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Tanechka\\AppData\\Local\\Temp\\.vsdbgsrc\\d20021878b4dd5602f6a4ef2d20c4e750ce37888350855b8d653bca124c0e772\\StaticAssetsEndpointRouteBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\d20021878b4dd5602f6a4ef2d20c4e750ce37888350855b8d653bca124c0e772\\StaticAssetsEndpointRouteBuilderExtensions.cs",
+              "ToolTip": "C:\\Users\\Tanechka\\AppData\\Local\\Temp\\.vsdbgsrc\\d20021878b4dd5602f6a4ef2d20c4e750ce37888350855b8d653bca124c0e772\\StaticAssetsEndpointRouteBuilderExtensions.cs",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\d20021878b4dd5602f6a4ef2d20c4e750ce37888350855b8d653bca124c0e772\\StaticAssetsEndpointRouteBuilderExtensions.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAtwCsAAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T18:33:39.766Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

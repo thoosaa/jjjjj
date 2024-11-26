@@ -1,106 +1,156 @@
 using Microsoft.AspNetCore.SignalR;
+using Share.Models;
 using System;
 using System.Collections.Generic;
-using System.Threading.Tasks;
-using Share.Models; 
+using System.Linq;
 
 namespace Server.Hubs
 {
     public class GameHub : Hub
     {
-        private static readonly Dictionary<string, PigGame> GameGroups = new();
+        private static readonly Dictionary<string, List<string>> GamePlayers = new();
+        private static readonly Dictionary<string, PigGame> GameStates = new();
+        private static readonly Dictionary<string, (string Game, string Username)> ConnectionMap = new();
 
         public async Task CreateGame(string game, string username)
         {
-            if (GameGroups.ContainsKey(game))
+            if (GamePlayers.ContainsKey(game))
             {
                 throw new HubException("This game already exists!");
             }
 
-            GameGroups.Add(game, new PigGame(new List<string> { username }));
-
-            await JoinGame(game, username);
+            GamePlayers.Add(game, new List<string> { username });
+            ConnectionMap[Context.ConnectionId] = (game, username);
+            await Groups.AddToGroupAsync(Context.ConnectionId, game);
+            await Clients.Group(game).SendAsync("PlayerJoined", username);
         }
 
         public async Task JoinGame(string game, string username)
         {
-            if (!GameGroups.ContainsKey(game))
+            if (!GamePlayers.ContainsKey(game))
             {
                 throw new HubException("This game doesn't exist!");
             }
 
-            if (GameGroups[game].GetPlayers().Count >= 5)
+            if (GamePlayers[game].Count >= 5)
             {
-                throw new HubException("This game is full!");
+                throw new HubException("This game is full! Maximum 5 players allowed.");
             }
 
-            GameGroups[game].GetPlayers().Add(new Player(username));
-
-            try
+            if (!GamePlayers[game].Contains(username, StringComparer.OrdinalIgnoreCase))
             {
+                GamePlayers[game].Add(username);
+                ConnectionMap[Context.ConnectionId] = (game, username);
                 await Groups.AddToGroupAsync(Context.ConnectionId, game);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-
-            await Clients.Group(game).SendAsync("Receive", $"{username} has joined the game.");
-
-            if (GameGroups[game].GetPlayers().Count >= 2)
-            {
-                await Clients.Group(game).SendAsync("Start", "The game is ready to start!");
+                // Only notify others about the new player
+                await Clients.OthersInGroup(game).SendAsync("PlayerJoined", username);
             }
         }
 
-        public async Task RollDice(string game)
+        public Task<List<string>> GetPlayerNames(string game)
         {
-            if (!GameGroups.ContainsKey(game))
+            if (!GamePlayers.ContainsKey(game))
             {
-                throw new HubException("This game doesn't exist!");
+                return Task.FromResult(new List<string>());
             }
-
-            var result = GameGroups[game].PlayTurn();
-            await Clients.Group(game).SendAsync("ReceiveRollResult", result.Message);
-
-            if (GameGroups[game].IsGameOver)
-            {
-                await Clients.Group(game).SendAsync("Finish", GameGroups[game].GetCurrentPlayer().Name);
-            }
+            return Task.FromResult(GamePlayers[game]);
         }
 
-        public async Task BankPoints(string game)
+        public async Task StartGame(string game)
         {
-            if (!GameGroups.ContainsKey(game))
+            if (!GamePlayers.ContainsKey(game))
             {
-                throw new HubException("This game doesn't exist!");
+                throw new HubException("Game not found!");
             }
 
-            var message = GameGroups[game].BankPoints();
-            await Clients.Group(game).SendAsync("ReceiveBankResult", message);
-
-            if (GameGroups[game].IsGameOver)
+            var players = GamePlayers[game];
+            if (players.Count < 2)
             {
-                await Clients.Group(game).SendAsync("Finish", GameGroups[game].GetCurrentPlayer().Name);
+                throw new HubException("Need at least 2 players to start!");
             }
+
+            var gameState = new PigGame(players);
+            GameStates[game] = gameState;
+            await Clients.Group(game).SendAsync("GameStarted");
         }
 
-        public async Task EndGame(string game, string username)
+        public async Task UpdateGameState(string game, PigGame gameState)
         {
-            if (GameGroups.ContainsKey(game))
+            if (!GameStates.ContainsKey(game))
             {
-                await Clients.Group(game).SendAsync("Finish", username);
-                GameGroups.Remove(game);
+                throw new HubException("Game not found!");
             }
+
+            GameStates[game] = gameState;
+            await Clients.Group(game).SendAsync("GameStateUpdated", gameState);
+        }
+
+        public Task<PigGame> GetGameState(string game)
+        {
+            if (!GameStates.ContainsKey(game))
+            {
+                return Task.FromResult<PigGame>(null);
+            }
+            return Task.FromResult(GameStates[game]);
+        }
+
+        public async Task EndGame(string game, string winner)
+        {
+            if (!GameStates.ContainsKey(game))
+            {
+                throw new HubException("Game not found!");
+            }
+
+            await Clients.Group(game).SendAsync("GameEnded", winner);
+            GameStates.Remove(game);
+            GamePlayers.Remove(game);
         }
 
         public async Task DeleteGame(string game)
         {
-            if (GameGroups.ContainsKey(game))
+            if (GameStates.ContainsKey(game))
             {
-                await Clients.Group(game).SendAsync("End");
-                GameGroups.Remove(game);
+                GameStates.Remove(game);
             }
+            if (GamePlayers.ContainsKey(game))
+            {
+                GamePlayers.Remove(game);
+            }
+            await Clients.Group(game).SendAsync("GameDeleted");
+        }
+
+        public override async Task OnDisconnectedAsync(Exception exception)
+        {
+            if (ConnectionMap.TryGetValue(Context.ConnectionId, out var connection))
+            {
+                var (game, username) = connection;
+                
+                if (GamePlayers.ContainsKey(game))
+                {
+                    GamePlayers[game].RemoveAll(player => player.Equals(username, StringComparison.OrdinalIgnoreCase));
+                    
+                    // If this was the last player, clean up the game
+                    if (GamePlayers[game].Count == 0)
+                    {
+                        GamePlayers.Remove(game);
+                        if (GameStates.ContainsKey(game))
+                        {
+                            GameStates.Remove(game);
+                        }
+                        await Clients.Group(game).SendAsync("GameDeleted");
+                    }
+                    else
+                    {
+                        // Notify others that player left
+                        await Clients.Group(game).SendAsync("PlayerLeft", username);
+                    }
+                }
+                
+                ConnectionMap.Remove(Context.ConnectionId);
+                await Groups.RemoveFromGroupAsync(Context.ConnectionId, game);
+            }
+            
+            await base.OnDisconnectedAsync(exception);
         }
     }
 }

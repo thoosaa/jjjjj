@@ -2,35 +2,65 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
-    <title>BattleShip</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pig Game</title>
     <base href="/" />
     <!--<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />-->
     <link href="css/app.css" rel="stylesheet" />
-    <link rel="icon" type="image/png" href="img/favicon.png" />
-    <!--<link href="Client.styles.css" rel="stylesheet" />-->
+    <!--<link rel="icon" type="image/png" href="img/favicon.png" />-->
+    <link href="Client.styles.css" rel="stylesheet" />
   </head>
 
   <body>
     <div id="app">
-      <svg class="loading-progress">
-        <circle r="40%" cx="50%" cy="50%" />
-        <circle r="40%" cx="50%" cy="50%" />
-      </svg>
-      <div class="loading-progress-text"></div>
+      <div class="loading">
+        <div class="loading-text">
+          Loading...
+        </div>
+      </div>
     </div>
 
     <div id="blazor-error-ui">
-      An unhandled error has occurred.
+      An error has occurred.
       <a href="" class="reload">Reload</a>
       <a class="dismiss">🗙</a>
     </div>
 
     <script src="_framework/blazor.webassembly.js"></script>
 
-    <script src="js/function.js"></script>
+    <!--<script src="js/function.js"></script>-->
   </body>
 </html>
+
+<style>
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .loading-text {
+    font-size: 1.5rem;
+    color: #666;
+  }
+
+  #blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  #blazor-error-ui .dismiss {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+  }
+</style>

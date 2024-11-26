@@ -4,3 +4,80 @@ C:\Users\Tanechka\Desktop\Lab13\Client\obj\Debug\net9.0\staticwebassets.build.js
 C:\Users\Tanechka\Desktop\Lab13\Client\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Tanechka\Desktop\Lab13\Client\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Tanechka\Desktop\Lab13\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\Lab13\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\Lab13\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\Lab13\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\Lab13\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\Lab13\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\Lab13\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\Lab13\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\Lab13\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\Lab13\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\Lab13\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\Lab13\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\Lab13\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\Lab13\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\Lab13\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\Lab13\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\Lab13\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tanechka\Desktop\PIG GAME\Client\obj\Debug\net9.0\staticwebassets.build.json

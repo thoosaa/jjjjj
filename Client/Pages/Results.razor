@@ -1,51 +1,112 @@
-﻿@page "/results"
+@page "/results"
 
 @inject NavigationManager NavigationManager
 @inject IGameService GameService
 
-<PageTitle>Results</PageTitle>
+<PageTitle>Game Results - Pig</PageTitle>
 
-<link href="css/style.css" rel="stylesheet">
+<div class="results-container">
+    <div class="results-card">
+        <h2>Game Over!</h2>
+        
+        @if (!string.IsNullOrEmpty(Username))
+        {
+            <div class="winner-section">
+                <h3>Winner</h3>
+                <p class="winner-name">@Username</p>
+            </div>
+        }
 
-<div class="battlefield">
-	<div class="welcome-text">
-		<p>Финал</p>
-	</div>
-	<div class="start-page-buttons">
-		<div class="users">
-			<p>Победитель: @Username</p>
-		</div>
-		<div style="display: flex; justify-content:space-around;">
-			<input type="button" value="Назад в меню" class="start_button" @onclick="toMenu">
-		</div>
-	</div>
+        <button class="game-button" @onclick="BackToHome">Back to Home</button>
+    </div>
 </div>
+
+<style>
+    .results-container {
+        max-width: 600px;
+        margin: 4rem auto;
+        padding: 2rem;
+    }
+
+    .results-card {
+        background-color: white;
+        padding: 3rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    h2 {
+        color: #2c3e50;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .winner-section {
+        margin: 2rem 0;
+        padding: 2rem;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+    }
+
+    h3 {
+        color: #666;
+        margin-bottom: 1rem;
+    }
+
+    .winner-name {
+        font-size: 1.5rem;
+        color: #4CAF50;
+        font-weight: bold;
+    }
+
+    .game-button {
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+        border: none;
+        border-radius: 8px;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 2rem;
+    }
+
+    .game-button:hover {
+        background-color: #45a049;
+    }
+</style>
 
 @code
 {
-	[SupplyParameterFromQuery]
-	[Parameter]
-	public string? GameId { get; set; } = "";
+    [SupplyParameterFromQuery]
+    [Parameter]
+    public string? GameId { get; set; } = "";
 
-	[SupplyParameterFromQuery]
-	[Parameter]
-	public string? Username { get; set; } = "";
+    [SupplyParameterFromQuery]
+    [Parameter]
+    public string? Username { get; set; } = "";
 
-	protected async override Task OnInitializedAsync()
-	{
-		var uri = new Uri(NavigationManager.Uri);
-		var query = QueryHelpers.ParseQuery(uri.Query);
+    protected async override Task OnInitializedAsync()
+    {
+        var uri = new Uri(NavigationManager.Uri);
+        var query = QueryHelpers.ParseQuery(uri.Query);
 
-		GameService.CreateConnection("End", () =>
-		{
-			NavigationManager.NavigateTo($"/");
-		});
+        GameService.CreateConnection("End", () =>
+        {
+            NavigationManager.NavigateTo($"/");
+        });
 
-		await GameService.ConnectToHub();
-	}
+        await GameService.ConnectToHub();
+    }
 
-	private async Task toMenu()
-	{
-		await GameService.DeleteGame(GameId!);
-	}
+    private async Task toMenu()
+    {
+        await GameService.DeleteGame(GameId!);
+    }
+
+    private void BackToHome()
+    {
+        NavigationManager.NavigateTo("/");
+    }
 }

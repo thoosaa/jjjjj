@@ -1,0 +1,117 @@
+@page "/lobby"
+@using Share.Models
+
+<PageTitle>Game Lobby</PageTitle>
+
+<div class="lobby-container">
+    <div class="game-info">
+        <h2>Pig Game Lobby</h2>
+        <p class="game-description">
+            Welcome to Pig! This is a simple dice game where players take turns rolling a die.
+            On each turn, a player can either roll or bank their points. If they roll a 1, they
+            lose all points for that turn. First to 100 points wins!
+        </p>
+    </div>
+
+    <div class="player-list">
+        <h3>Players in Lobby (@(players.Count)/5)</h3>
+        @foreach (var player in players)
+        {
+            <div class="player-item">
+                <span class="player-name">@player @(player == currentPlayer ? "(You)" : "")</span>
+            </div>
+        }
+    </div>
+
+    <div class="lobby-actions">
+        @if (players.Count >= 2 && players.Count <= 5)
+        {
+            <button class="game-button" @onclick="StartGame">Start Game</button>
+        }
+        else
+        {
+            <p class="waiting-message">Waiting for more players... (Need 2-5 players)</p>
+        }
+    </div>
+</div>
+
+<style>
+    .lobby-container {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 2rem;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .game-info {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .game-info h2 {
+        color: #2c3e50;
+        margin-bottom: 1rem;
+    }
+
+    .game-description {
+        color: #666;
+        line-height: 1.6;
+    }
+
+    .player-list {
+        margin: 2rem 0;
+    }
+
+    .player-list h3 {
+        color: #2c3e50;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .player-item {
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        padding: 1rem;
+        margin: 0.5rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .player-name {
+        color: #2c3e50;
+        font-weight: bold;
+    }
+
+    .lobby-actions {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .game-button {
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+        border: none;
+        border-radius: 8px;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s, opacity 0.3s;
+    }
+
+    .game-button:hover:not(:disabled) {
+        background-color: #45a049;
+    }
+
+    .game-button:disabled {
+        opacity: 0.7;
+        cursor: not-allowed;
+    }
+
+    .waiting-message {
+        color: #666;
+        font-style: italic;
+    }
+</style>

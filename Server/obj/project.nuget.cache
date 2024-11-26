@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CUzyHftO4PI=",
+  "dgSpecHash": "XkvITiVM1z0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tanechka\\Desktop\\Lab13\\Server\\Server.csproj",
+  "projectFilePath": "C:\\Users\\Tanechka\\Desktop\\PIG GAME\\Server\\Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tanechka\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.0\\microsoft.aspnetcore.authorization.9.0.0.nupkg.sha512",
     "C:\\Users\\Tanechka\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.0\\microsoft.aspnetcore.components.9.0.0.nupkg.sha512",

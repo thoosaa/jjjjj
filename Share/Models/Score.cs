@@ -1,15 +1,47 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace Share.Models
 {
-    public class Score
+    public class Score : INotifyPropertyChanged
     {
-        public int TotalScore { get; private set; }
-        public int TurnScore { get; private set; }
+        private int _totalScore;
+        private int _turnScore;
+
+        public int TotalScore
+        {
+            get => _totalScore;
+            private set
+            {
+                if (_totalScore != value)
+                {
+                    _totalScore = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
+        public int TurnScore
+        {
+            get => _turnScore;
+            private set
+            {
+                if (_turnScore != value)
+                {
+                    _turnScore = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
 
         public void AddTurnScore(int score)
         {

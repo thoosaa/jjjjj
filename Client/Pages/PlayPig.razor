@@ -1,0 +1,198 @@
+@page "/play"
+@using Share.Models
+
+<PageTitle>Play Pig</PageTitle>
+
+<div class="game-container">
+    @if (gameState == null)
+    {
+        <div class="loading">Loading game state...</div>
+    }
+    else
+    {
+        <div class="game-board">
+            <div class="game-status">
+                <h2>@gameMessage</h2>
+                @if (lastRoll.HasValue)
+                {
+                    <div class="dice">
+                        <span class="dice-value">@lastRoll</span>
+                    </div>
+                }
+            </div>
+
+            <div class="players-container">
+                @foreach (var player in players)
+                {
+                    <div class="@GetPlayerClass(player)">
+                        <h3>@player.Name @(player.Name == currentUserName ? "(You)" : "")</h3>
+                        <div class="score">Total Score: @player.Score.TotalScore</div>
+                        <div class="current">Current Round: @player.Score.TurnScore</div>
+                        @if (player.Name == currentPlayer?.Name)
+                        {
+                            <div class="current-turn">Current Turn</div>
+                        }
+                    </div>
+                }
+            </div>
+
+            <div class="controls">
+                <button class="game-button" @onclick="RollDice" disabled="@(!CanTakeTurn())">
+                    @if (isRolling)
+                    {
+                        <span>Rolling...</span>
+                    }
+                    else
+                    {
+                        <span>Roll Dice</span>
+                    }
+                </button>
+                <button class="game-button bank" @onclick="BankPoints" disabled="@(!CanTakeTurn())">
+                    Bank Points
+                </button>
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    .game-container {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 1rem;
+    }
+
+    .loading {
+        text-align: center;
+        font-size: 1.5rem;
+        color: #666;
+        margin: 2rem;
+    }
+
+    .game-board {
+        background-color: white;
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .game-status {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .game-status h2 {
+        color: #2c3e50;
+        margin-bottom: 1rem;
+    }
+
+    .dice {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        background-color: #4CAF50;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem;
+    }
+
+    .dice-value {
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .players-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin: 2rem 0;
+    }
+
+    .player-card {
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        padding: 1.5rem;
+        text-align: center;
+        transition: all 0.3s ease;
+        position: relative;
+        border: 2px solid transparent;
+    }
+
+    .current-player {
+        background-color: #e8f5e9;
+        border: 2px solid #4CAF50;
+        transform: scale(1.05);
+    }
+
+    .your-player {
+        border: 2px solid #2196F3;
+    }
+
+    .your-player.current-player {
+        border: 2px solid #4CAF50;
+        background-color: #e8f5e9;
+    }
+
+    .current-turn {
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #4CAF50;
+        color: white;
+        padding: 0.25rem 1rem;
+        border-radius: 15px;
+        font-size: 0.9rem;
+    }
+
+    .player-card h3 {
+        color: #2c3e50;
+        margin-bottom: 1rem;
+    }
+
+    .score, .current {
+        margin: 0.5rem 0;
+        color: #666;
+        font-weight: bold;
+    }
+
+    .controls {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    .game-button {
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+        border: none;
+        border-radius: 8px;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s, opacity 0.3s;
+        min-width: 150px;
+    }
+
+    .game-button:hover:not(:disabled) {
+        background-color: #45a049;
+    }
+
+    .game-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+        opacity: 0.7;
+    }
+
+    .game-button.bank {
+        background-color: #2196F3;
+    }
+
+    .game-button.bank:hover:not(:disabled) {
+        background-color: #1976D2;
+    }
+</style>

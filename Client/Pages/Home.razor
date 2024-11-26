@@ -1,21 +1,70 @@
-﻿@page "/"
+@page "/"
 
 @inject NavigationManager NavigationManager
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Pig Game</PageTitle>
 
-<link href="css/style.css" rel="stylesheet">
-
-<div class="battlefield">
+<div class="game-home">
     <div class="welcome-text">
-        <p>Морской Бой</p>
+        <h1>Welcome to Pig Game!</h1>
+        <p class="game-description">
+            A fun dice game where players take turns rolling. Be careful not to roll a 1!
+            First to 100 points wins.
+        </p>
     </div>
 
-    <div class="start-page-buttons">
-        <input type="button" class="start_button" @onclick="CreateGame" value="Создать игру">
-        <input type="button" class="start_button" @onclick="JoinGame" value="Присоединиться к игре">
+    <div class="start-buttons">
+        <button class="game-button" @onclick="CreateGame">Create Game</button>
+        <button class="game-button" @onclick="JoinGame">Join Game</button>
     </div>
 </div>
+
+<style>
+    .game-home {
+        max-width: 800px;
+        margin: 4rem auto;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .welcome-text {
+        margin-bottom: 3rem;
+    }
+
+    h1 {
+        color: #2c3e50;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .game-description {
+        color: #666;
+        font-size: 1.2rem;
+        line-height: 1.6;
+        margin: 1rem 0 2rem;
+    }
+
+    .start-buttons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .game-button {
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+        border: none;
+        border-radius: 8px;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .game-button:hover {
+        background-color: #45a049;
+    }
+</style>
 
 @code
 {

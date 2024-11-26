@@ -1,14 +1,11 @@
-C:\Users\Tanechka\Desktop\Lab13\Client\wwwroot\index.html
-C:\Users\Tanechka\Desktop\Lab13\Client\wwwroot\js\function.js
-C:\Users\Tanechka\Desktop\Lab13\Client\wwwroot\css\app.css
-C:\Users\Tanechka\Desktop\Lab13\Client\wwwroot\js\pageJsInvokeService.js
-C:\Users\Tanechka\Desktop\Lab13\Client\wwwroot\css\style.css
-C:\Users\Tanechka\Desktop\Lab13\Client\wwwroot\css\open-iconic\font\fonts\open-iconic.otf
-C:\Users\Tanechka\Desktop\Lab13\Client\wwwroot\css\bootstrap\bootstrap.min.css
-C:\Users\Tanechka\Desktop\Lab13\Client\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
-C:\Users\Tanechka\Desktop\Lab13\Client\wwwroot\css\open-iconic\README.md
-C:\Users\Tanechka\Desktop\Lab13\Client\wwwroot\css\bootstrap\bootstrap.min.css.map
-C:\Users\Tanechka\Desktop\Lab13\Client\wwwroot\css\open-iconic\font\fonts\open-iconic.svg
+C:\Users\Tanechka\Desktop\PIG GAME\Client\wwwroot\index.html
+C:\Users\Tanechka\Desktop\PIG GAME\Client\wwwroot\css\app.css
+C:\Users\Tanechka\Desktop\PIG GAME\Client\wwwroot\js\pageJsInvokeService.js
+C:\Users\Tanechka\Desktop\PIG GAME\Client\wwwroot\css\open-iconic\font\fonts\open-iconic.otf
+C:\Users\Tanechka\Desktop\PIG GAME\Client\wwwroot\css\bootstrap\bootstrap.min.css
+C:\Users\Tanechka\Desktop\PIG GAME\Client\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
+C:\Users\Tanechka\Desktop\PIG GAME\Client\wwwroot\css\bootstrap\bootstrap.min.css.map
+C:\Users\Tanechka\Desktop\PIG GAME\Client\wwwroot\css\open-iconic\font\fonts\open-iconic.svg
 wwwroot\css\app.css
 wwwroot\css\bootstrap\bootstrap.min.css
 wwwroot\css\bootstrap\bootstrap.min.css.map
@@ -18,15 +15,7 @@ wwwroot\css\open-iconic\font\fonts\open-iconic.otf
 wwwroot\css\open-iconic\font\fonts\open-iconic.svg
 wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
 wwwroot\css\open-iconic\font\fonts\open-iconic.woff
-wwwroot\css\open-iconic\FONT-LICENSE
-wwwroot\css\open-iconic\ICON-LICENSE
-wwwroot\css\open-iconic\README.md
-wwwroot\css\style.css
 wwwroot\img\86867-2658256031.jpg
-wwwroot\img\bg_play_field.png
 wwwroot\img\favicon.png
-wwwroot\img\grid.png
-wwwroot\img\sprite.png
 wwwroot\index.html
-wwwroot\js\function.js
 wwwroot\js\pageJsInvokeService.js

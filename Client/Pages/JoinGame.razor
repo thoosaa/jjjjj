@@ -1,43 +1,113 @@
-﻿@page "/join"
+@page "/join"
 
 @inject NavigationManager NavigationManager
 @inject IGameService GameService
 
-<PageTitle>Join game</PageTitle>
+<PageTitle>Join Game - Pig</PageTitle>
 
-<link href="css/style.css" rel="stylesheet">
-
-<div class="battlefield">
-	<div class="welcome-text">
-		<p>Присоединиться к игре</p>
-	</div>
-
-	<div class="start-page-buttons">
-		<input class="form-control" type="text" placeholder="ID" @bind="GameId">
-		<input class="form-control" type="text" placeholder="Username" @bind="Username">
-		<input type="button" class="start_button" @onclick="(async () => await Join())" value="Присоединиться">
-	</div>
+<div class="join-game">
+    <div class="form-container">
+        <h2>Join Existing Game</h2>
+        <div class="form-group">
+            <label for="gameId">Game ID</label>
+            <input id="gameId" class="form-control" type="text" placeholder="Enter game ID" @bind="GameId">
+        </div>
+        <div class="form-group">
+            <label for="username">Your Name</label>
+            <input id="username" class="form-control" type="text" placeholder="Enter your name" @bind="Username">
+        </div>
+        <button class="game-button" @onclick="Join" disabled="@(string.IsNullOrWhiteSpace(GameId) || string.IsNullOrWhiteSpace(Username))">
+            Join Game
+        </button>
+    </div>
 </div>
 
-@code
-{
-	private string GameId { get; set; } = "";
-	private string Username { get; set; } = "";
+<style>
+    .join-game {
+        max-width: 500px;
+        margin: 4rem auto;
+        padding: 2rem;
+    }
 
-	protected async override Task OnInitializedAsync()
-	{
-		GameService.CreateConnection("Receive", () => { });
+    .form-container {
+        background-color: white;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
 
-		await GameService.ConnectToHub();
-	}
+    h2 {
+        color: #2c3e50;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
 
-	private async Task Join()
-	{
-		bool result = await GameService.JoinGame(GameId, Username);
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
 
-		if (result)
-		{
-			NavigationManager.NavigateTo($"/waiting?GameId={GameId}&Username={Username}");
-		}
-	}
+    label {
+        display: block;
+        margin-bottom: 0.5rem;
+        color: #666;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 0.75rem;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .form-control:focus {
+        outline: none;
+        border-color: #4CAF50;
+        box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+    }
+
+    .game-button {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1.1rem;
+        border: none;
+        border-radius: 8px;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .game-button:hover:not(:disabled) {
+        background-color: #45a049;
+    }
+
+    .game-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+</style>
+
+@code {
+    private string GameId { get; set; } = "";
+    private string Username { get; set; } = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GameService.ConnectToHub();
+    }
+
+    private async Task Join()
+    {
+        if (string.IsNullOrWhiteSpace(GameId) || string.IsNullOrWhiteSpace(Username))
+            return;
+
+        bool result = await GameService.JoinGame(GameId, Username);
+
+        if (result)
+        {
+            NavigationManager.NavigateTo($"/lobby?game={GameId}&player={Username}");
+        }
+    }
 }
